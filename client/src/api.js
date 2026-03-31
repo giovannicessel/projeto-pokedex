@@ -1,12 +1,20 @@
 const DATA_SOURCE_URL =
   import.meta.env.VITE_DATA_SOURCE_URL ||
   'https://raw.githubusercontent.com/giovannicessel/projeto-pokedex/main/server/data/db.json'
+const DATA_SOURCE_FALLBACK_URL =
+  import.meta.env.VITE_DATA_SOURCE_FALLBACK_URL ||
+  'https://cdn.jsdelivr.net/gh/giovannicessel/projeto-pokedex@main/server/data/db.json'
 const ASSET_SOURCE_BASE =
   (import.meta.env.VITE_ASSET_SOURCE_BASE ||
     'https://raw.githubusercontent.com/giovannicessel/projeto-pokedex/main').replace(/\/$/, '')
 
-async function fetchJson(url) {
-  const r = await fetch(url)
+const DB_CACHE_KEY = 'pokedex-static-db-cache-v1'
+
+async function fetchJson(url, timeoutMs = 10000) {
+  const ctrl = new AbortController()
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs)
+  const r = await fetch(url, { signal: ctrl.signal, cache: 'no-store' })
+  clearTimeout(timer)
   if (!r.ok) throw new Error(`Falha ao carregar: ${url}`)
   return r.json()
 }
@@ -34,8 +42,29 @@ function enrichPokemon(db, p) {
 let cacheDb = null
 async function getDb() {
   if (cacheDb) return cacheDb
-  cacheDb = await fetchJson(DATA_SOURCE_URL)
-  return cacheDb
+  const sources = [DATA_SOURCE_URL, DATA_SOURCE_FALLBACK_URL]
+  for (const src of sources) {
+    try {
+      const db = await fetchJson(src)
+      cacheDb = db
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(DB_CACHE_KEY, JSON.stringify(db))
+      }
+      return cacheDb
+    } catch {
+      // tenta próxima fonte
+    }
+  }
+
+  if (typeof window !== 'undefined') {
+    const cached = localStorage.getItem(DB_CACHE_KEY)
+    if (cached) {
+      cacheDb = JSON.parse(cached)
+      return cacheDb
+    }
+  }
+
+  throw new Error('Não foi possível carregar os dados estáticos da Pokédex.')
 }
 
 export async function fetchTypes() {
@@ -55,6 +84,27 @@ function sanitizeFlavor(text) {
     .replace(/\f|\n|\r/g, ' ')
     .replace(/\s+/g, ' ')
     .trim()
+}
+
+const translationCache = new Map()
+
+async function translateEnToPt(text) {
+  const key = String(text || '').toLowerCase()
+  if (!key) return ''
+  if (translationCache.has(key)) return translationCache.get(key)
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(
+      text
+    )}&langpair=en|pt-BR`
+    const data = await fetchJson(url, 8000)
+    const translated = data?.responseData?.translatedText
+    const out =
+      translated && typeof translated === 'string' ? translated : text
+    translationCache.set(key, out)
+    return out
+  } catch {
+    return text
+  }
 }
 
 function titleCase(name) {
@@ -82,8 +132,16 @@ function extractDescription(species, lang) {
   const entries = species.flavor_text_entries || []
   const pt = entries.find((x) => x.language?.name === 'pt')
   const en = entries.find((x) => x.language?.name === 'en')
-  if (lang === 'en') return sanitizeFlavor(en?.flavor_text || pt?.flavor_text)
-  return sanitizeFlavor(pt?.flavor_text || en?.flavor_text)
+  if (lang === 'en') {
+    return {
+      text: sanitizeFlavor(en?.flavor_text || pt?.flavor_text),
+      source: en ? 'en' : pt ? 'pt' : 'none',
+    }
+  }
+  return {
+    text: sanitizeFlavor(pt?.flavor_text || en?.flavor_text),
+    source: pt ? 'pt' : en ? 'en' : 'none',
+  }
 }
 
 async function getPokemonThumb(slug) {
@@ -136,8 +194,14 @@ export async function fetchPokemonDetails(pokemon, lang = 'pt') {
     radialTargets = parentNode.children.slice()
   }
 
+  const desc = extractDescription(species, lang)
+  const description =
+    lang === 'pt' && desc.source === 'en'
+      ? await translateEnToPt(desc.text)
+      : desc.text
+
   return {
-    description: extractDescription(species, lang),
+    description,
     evolvesTo: chainNodes.slice(currentIndex + 1).map((n) => n.name),
     chain: chainNodes.map((n) => n.name),
     chainNodes,
