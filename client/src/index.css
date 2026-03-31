@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes prismShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@layer components {
+  .legendary-prism {
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 0, 122, 0.18),
+      rgba(255, 136, 0, 0.16),
+      rgba(255, 235, 59, 0.14),
+      rgba(0, 214, 255, 0.16),
+      rgba(124, 58, 237, 0.18),
+      rgba(255, 0, 122, 0.18)
+    );
+    background-size: 240% 240%;
+    animation: prismShift 6s ease infinite;
+  }
+
+  .legendary-badge {
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 0, 122, 0.2),
+      rgba(255, 136, 0, 0.2),
+      rgba(0, 214, 255, 0.2),
+      rgba(124, 58, 237, 0.2)
+    );
+    color: #fff;
+  }
+}
+
+@layer base {
+  :root {
+    --bg: #f4f6fa;
+    --bg-elevated: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --accent: #dc2626;
+    --danger: #dc2626;
+    --surface: rgba(255, 255, 255, 0.92);
+    --header-bg: rgba(255, 255, 255, 0.88);
+    --gradient-hero: radial-gradient(ellipse 120% 80% at 50% -20%, #fecaca 0%, #f4f6fa 55%);
+  }
+
+  .dark {
+    --bg: #0c0f14;
+    --bg-elevated: #141922;
+    --text: #e8ecf1;
+    --muted: #8b95a5;
+    --accent: #3b82f6;
+    --danger: #ef4444;
+    --surface: rgba(20, 25, 34, 0.92);
+    --header-bg: rgba(12, 15, 20, 0.85);
+    --gradient-hero: radial-gradient(ellipse 120% 80% at 50% -20%, #1a2744 0%, #0c0f14 55%);
+  }
+
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply m-0 min-h-screen text-[color:var(--text)] transition-colors duration-300;
+    background: var(--gradient-hero);
+    background-color: var(--bg);
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Outfit, 'DM Sans', sans-serif;
+    @apply font-bold tracking-tight;
+  }
+
+  a {
+    @apply text-blue-500 no-underline hover:underline;
+  }
+
+  .dark a {
+    @apply text-blue-400;
+  }
+
+  button {
+    @apply cursor-pointer;
+    font: inherit;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply text-base;
+    font: inherit;
+  }
+}

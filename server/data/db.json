@@ -1,0 +1,5434 @@
+{
+  "types": [
+    {
+      "id": 1,
+      "slug": "normal",
+      "name": "Normal",
+      "borderColor": "#A8A878"
+    },
+    {
+      "id": 2,
+      "slug": "fogo",
+      "name": "Fogo",
+      "borderColor": "#EE8130"
+    },
+    {
+      "id": 3,
+      "slug": "agua",
+      "name": "Água",
+      "borderColor": "#6390F0"
+    },
+    {
+      "id": 4,
+      "slug": "eletrico",
+      "name": "Elétrico",
+      "borderColor": "#F7D02C"
+    },
+    {
+      "id": 5,
+      "slug": "grama",
+      "name": "Grama",
+      "borderColor": "#7AC74C"
+    },
+    {
+      "id": 6,
+      "slug": "gelo",
+      "name": "Gelo",
+      "borderColor": "#96D9D6"
+    },
+    {
+      "id": 7,
+      "slug": "lutador",
+      "name": "Lutador",
+      "borderColor": "#C22E28"
+    },
+    {
+      "id": 8,
+      "slug": "veneno",
+      "name": "Veneno",
+      "borderColor": "#A33EA1"
+    },
+    {
+      "id": 9,
+      "slug": "terra",
+      "name": "Terra",
+      "borderColor": "#E2BF65"
+    },
+    {
+      "id": 10,
+      "slug": "voador",
+      "name": "Voador",
+      "borderColor": "#A98FF3"
+    },
+    {
+      "id": 11,
+      "slug": "psiquico",
+      "name": "Psíquico",
+      "borderColor": "#F95587"
+    },
+    {
+      "id": 12,
+      "slug": "inseto",
+      "name": "Inseto",
+      "borderColor": "#A6B91A"
+    },
+    {
+      "id": 13,
+      "slug": "pedra",
+      "name": "Pedra",
+      "borderColor": "#B6A136"
+    },
+    {
+      "id": 14,
+      "slug": "fantasma",
+      "name": "Fantasma",
+      "borderColor": "#735797"
+    },
+    {
+      "id": 15,
+      "slug": "dragao",
+      "name": "Dragão",
+      "borderColor": "#6F35FC"
+    },
+    {
+      "id": 16,
+      "slug": "noturno",
+      "name": "Noturno",
+      "borderColor": "#705746"
+    },
+    {
+      "id": 17,
+      "slug": "aco",
+      "name": "Aço",
+      "borderColor": "#B7B7CE"
+    },
+    {
+      "id": 18,
+      "slug": "fada",
+      "name": "Fada",
+      "borderColor": "#D685AD"
+    }
+  ],
+  "pokemon": [
+    {
+      "id": 1,
+      "pokedexNumber": 1,
+      "name": "Bulbasaur",
+      "gifUrl": "/assets/imgs/poke_1.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 2,
+      "pokedexNumber": 2,
+      "name": "Ivysaur",
+      "gifUrl": "/assets/imgs/poke_2.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 3,
+      "pokedexNumber": 3,
+      "name": "Venusaur",
+      "gifUrl": "/assets/imgs/poke_3.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 4,
+      "pokedexNumber": 4,
+      "name": "Charmander",
+      "gifUrl": "/assets/imgs/poke_4.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 5,
+      "pokedexNumber": 5,
+      "name": "Charmeleon",
+      "gifUrl": "/assets/imgs/poke_5.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 6,
+      "pokedexNumber": 6,
+      "name": "Charizard",
+      "gifUrl": "/assets/imgs/poke_6.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 7,
+      "pokedexNumber": 7,
+      "name": "Squirtle",
+      "gifUrl": "/assets/imgs/poke_7.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 8,
+      "pokedexNumber": 8,
+      "name": "Wartortle",
+      "gifUrl": "/assets/imgs/poke_8.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 9,
+      "pokedexNumber": 9,
+      "name": "Blastoise",
+      "gifUrl": "/assets/imgs/poke_9.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 10,
+      "pokedexNumber": 10,
+      "name": "Caterpie",
+      "gifUrl": "/assets/imgs/poke_10.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 11,
+      "pokedexNumber": 11,
+      "name": "Metapod",
+      "gifUrl": "/assets/imgs/poke_11.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 12,
+      "pokedexNumber": 12,
+      "name": "Butterfree",
+      "gifUrl": "/assets/imgs/poke_12.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 13,
+      "pokedexNumber": 13,
+      "name": "Weedle",
+      "gifUrl": "/assets/imgs/poke_13.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 14,
+      "pokedexNumber": 14,
+      "name": "Kakuna",
+      "gifUrl": "/assets/imgs/poke_14.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 15,
+      "pokedexNumber": 15,
+      "name": "Beedrill",
+      "gifUrl": "/assets/imgs/poke_15.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 16,
+      "pokedexNumber": 16,
+      "name": "Pidgey",
+      "gifUrl": "/assets/imgs/poke_16.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 17,
+      "pokedexNumber": 17,
+      "name": "Pidgeotto",
+      "gifUrl": "/assets/imgs/poke_17.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 18,
+      "pokedexNumber": 18,
+      "name": "Pidgeot",
+      "gifUrl": "/assets/imgs/poke_18.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 19,
+      "pokedexNumber": 19,
+      "name": "Rattata",
+      "gifUrl": "/assets/imgs/poke_19.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 20,
+      "pokedexNumber": 20,
+      "name": "Raticate",
+      "gifUrl": "/assets/imgs/poke_20.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 21,
+      "pokedexNumber": 21,
+      "name": "Spearow",
+      "gifUrl": "/assets/imgs/poke_21.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 22,
+      "pokedexNumber": 22,
+      "name": "Fearow",
+      "gifUrl": "/assets/imgs/poke_22.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 23,
+      "pokedexNumber": 23,
+      "name": "Ekans",
+      "gifUrl": "/assets/imgs/poke_23.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 24,
+      "pokedexNumber": 24,
+      "name": "Arbok",
+      "gifUrl": "/assets/imgs/poke_24.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 25,
+      "pokedexNumber": 25,
+      "name": "Pikachu",
+      "gifUrl": "/assets/imgs/poke_25.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 26,
+      "pokedexNumber": 26,
+      "name": "Raichu",
+      "gifUrl": "/assets/imgs/poke_26.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 27,
+      "pokedexNumber": 27,
+      "name": "Sandshrew",
+      "gifUrl": "/assets/imgs/poke_27.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 28,
+      "pokedexNumber": 28,
+      "name": "Sandslash",
+      "gifUrl": "/assets/imgs/poke_28.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 29,
+      "pokedexNumber": 29,
+      "name": "Nidoran-f",
+      "gifUrl": "/assets/imgs/poke_29.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 30,
+      "pokedexNumber": 30,
+      "name": "Nidorina",
+      "gifUrl": "/assets/imgs/poke_30.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 31,
+      "pokedexNumber": 31,
+      "name": "Nidoqueen",
+      "gifUrl": "/assets/imgs/poke_31.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 32,
+      "pokedexNumber": 32,
+      "name": "Nidoran-m",
+      "gifUrl": "/assets/imgs/poke_32.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 33,
+      "pokedexNumber": 33,
+      "name": "Nidorino",
+      "gifUrl": "/assets/imgs/poke_33.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 34,
+      "pokedexNumber": 34,
+      "name": "Nidoking",
+      "gifUrl": "/assets/imgs/poke_34.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 35,
+      "pokedexNumber": 35,
+      "name": "Clefairy",
+      "gifUrl": "/assets/imgs/poke_35.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 36,
+      "pokedexNumber": 36,
+      "name": "Clefable",
+      "gifUrl": "/assets/imgs/poke_36.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 37,
+      "pokedexNumber": 37,
+      "name": "Vulpix",
+      "gifUrl": "/assets/imgs/poke_37.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 38,
+      "pokedexNumber": 38,
+      "name": "Ninetales",
+      "gifUrl": "/assets/imgs/poke_38.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 39,
+      "pokedexNumber": 39,
+      "name": "Jigglypuff",
+      "gifUrl": "/assets/imgs/poke_39.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 40,
+      "pokedexNumber": 40,
+      "name": "Wigglytuff",
+      "gifUrl": "/assets/imgs/poke_40.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 41,
+      "pokedexNumber": 41,
+      "name": "Zubat",
+      "gifUrl": "/assets/imgs/poke_41.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 42,
+      "pokedexNumber": 42,
+      "name": "Golbat",
+      "gifUrl": "/assets/imgs/poke_42.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 43,
+      "pokedexNumber": 43,
+      "name": "Oddish",
+      "gifUrl": "/assets/imgs/poke_43.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 44,
+      "pokedexNumber": 44,
+      "name": "Gloom",
+      "gifUrl": "/assets/imgs/poke_44.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 45,
+      "pokedexNumber": 45,
+      "name": "Vileplume",
+      "gifUrl": "/assets/imgs/poke_45.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 46,
+      "pokedexNumber": 46,
+      "name": "Paras",
+      "gifUrl": "/assets/imgs/poke_46.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 47,
+      "pokedexNumber": 47,
+      "name": "Parasect",
+      "gifUrl": "/assets/imgs/poke_47.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 48,
+      "pokedexNumber": 48,
+      "name": "Venonat",
+      "gifUrl": "/assets/imgs/poke_48.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 49,
+      "pokedexNumber": 49,
+      "name": "Venomoth",
+      "gifUrl": "/assets/imgs/poke_49.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 50,
+      "pokedexNumber": 50,
+      "name": "Diglett",
+      "gifUrl": "/assets/imgs/poke_50.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 51,
+      "pokedexNumber": 51,
+      "name": "Dugtrio",
+      "gifUrl": "/assets/imgs/poke_51.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 52,
+      "pokedexNumber": 52,
+      "name": "Meowth",
+      "gifUrl": "/assets/imgs/poke_52.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 53,
+      "pokedexNumber": 53,
+      "name": "Persian",
+      "gifUrl": "/assets/imgs/poke_53.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 54,
+      "pokedexNumber": 54,
+      "name": "Psyduck",
+      "gifUrl": "/assets/imgs/poke_54.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 55,
+      "pokedexNumber": 55,
+      "name": "Golduck",
+      "gifUrl": "/assets/imgs/poke_55.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 56,
+      "pokedexNumber": 56,
+      "name": "Mankey",
+      "gifUrl": "/assets/imgs/poke_56.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 57,
+      "pokedexNumber": 57,
+      "name": "Primeape",
+      "gifUrl": "/assets/imgs/poke_57.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 58,
+      "pokedexNumber": 58,
+      "name": "Growlithe",
+      "gifUrl": "/assets/imgs/poke_58.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 59,
+      "pokedexNumber": 59,
+      "name": "Arcanine",
+      "gifUrl": "/assets/imgs/poke_59.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 60,
+      "pokedexNumber": 60,
+      "name": "Poliwag",
+      "gifUrl": "/assets/imgs/poke_60.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 61,
+      "pokedexNumber": 61,
+      "name": "Poliwhirl",
+      "gifUrl": "/assets/imgs/poke_61.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 62,
+      "pokedexNumber": 62,
+      "name": "Poliwrath",
+      "gifUrl": "/assets/imgs/poke_62.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 63,
+      "pokedexNumber": 63,
+      "name": "Abra",
+      "gifUrl": "/assets/imgs/poke_63.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 64,
+      "pokedexNumber": 64,
+      "name": "Kadabra",
+      "gifUrl": "/assets/imgs/poke_64.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 65,
+      "pokedexNumber": 65,
+      "name": "Alakazam",
+      "gifUrl": "/assets/imgs/poke_65.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 66,
+      "pokedexNumber": 66,
+      "name": "Machop",
+      "gifUrl": "/assets/imgs/poke_66.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 67,
+      "pokedexNumber": 67,
+      "name": "Machoke",
+      "gifUrl": "/assets/imgs/poke_67.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 68,
+      "pokedexNumber": 68,
+      "name": "Machamp",
+      "gifUrl": "/assets/imgs/poke_68.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 69,
+      "pokedexNumber": 69,
+      "name": "Bellsprout",
+      "gifUrl": "/assets/imgs/poke_69.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 70,
+      "pokedexNumber": 70,
+      "name": "Weepinbell",
+      "gifUrl": "/assets/imgs/poke_70.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 71,
+      "pokedexNumber": 71,
+      "name": "Victreebel",
+      "gifUrl": "/assets/imgs/poke_71.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 72,
+      "pokedexNumber": 72,
+      "name": "Tentacool",
+      "gifUrl": "/assets/imgs/poke_72.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 73,
+      "pokedexNumber": 73,
+      "name": "Tentacruel",
+      "gifUrl": "/assets/imgs/poke_73.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 74,
+      "pokedexNumber": 74,
+      "name": "Geodude",
+      "gifUrl": "/assets/imgs/poke_74.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 75,
+      "pokedexNumber": 75,
+      "name": "Graveler",
+      "gifUrl": "/assets/imgs/poke_75.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 76,
+      "pokedexNumber": 76,
+      "name": "Golem",
+      "gifUrl": "/assets/imgs/poke_76.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 77,
+      "pokedexNumber": 77,
+      "name": "Ponyta",
+      "gifUrl": "/assets/imgs/poke_77.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 78,
+      "pokedexNumber": 78,
+      "name": "Rapidash",
+      "gifUrl": "/assets/imgs/poke_78.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 79,
+      "pokedexNumber": 79,
+      "name": "Slowpoke",
+      "gifUrl": "/assets/imgs/poke_79.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 80,
+      "pokedexNumber": 80,
+      "name": "Slowbro",
+      "gifUrl": "/assets/imgs/poke_80.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 81,
+      "pokedexNumber": 81,
+      "name": "Magnemite",
+      "gifUrl": "/assets/imgs/poke_81.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 82,
+      "pokedexNumber": 82,
+      "name": "Magneton",
+      "gifUrl": "/assets/imgs/poke_82.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 83,
+      "pokedexNumber": 83,
+      "name": "Farfetchd",
+      "gifUrl": "/assets/imgs/poke_83.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 84,
+      "pokedexNumber": 84,
+      "name": "Doduo",
+      "gifUrl": "/assets/imgs/poke_84.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 85,
+      "pokedexNumber": 85,
+      "name": "Dodrio",
+      "gifUrl": "/assets/imgs/poke_85.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 86,
+      "pokedexNumber": 86,
+      "name": "Seel",
+      "gifUrl": "/assets/imgs/poke_86.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 87,
+      "pokedexNumber": 87,
+      "name": "Dewgong",
+      "gifUrl": "/assets/imgs/poke_87.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 88,
+      "pokedexNumber": 88,
+      "name": "Grimer",
+      "gifUrl": "/assets/imgs/poke_88.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 89,
+      "pokedexNumber": 89,
+      "name": "Muk",
+      "gifUrl": "/assets/imgs/poke_89.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 90,
+      "pokedexNumber": 90,
+      "name": "Shellder",
+      "gifUrl": "/assets/imgs/poke_90.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 91,
+      "pokedexNumber": 91,
+      "name": "Cloyster",
+      "gifUrl": "/assets/imgs/poke_91.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 92,
+      "pokedexNumber": 92,
+      "name": "Gastly",
+      "gifUrl": "/assets/imgs/poke_92.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 93,
+      "pokedexNumber": 93,
+      "name": "Haunter",
+      "gifUrl": "/assets/imgs/poke_93.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 94,
+      "pokedexNumber": 94,
+      "name": "Gengar",
+      "gifUrl": "/assets/imgs/poke_94.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 95,
+      "pokedexNumber": 95,
+      "name": "Onix",
+      "gifUrl": "/assets/imgs/poke_95.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 96,
+      "pokedexNumber": 96,
+      "name": "Drowzee",
+      "gifUrl": "/assets/imgs/poke_96.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 97,
+      "pokedexNumber": 97,
+      "name": "Hypno",
+      "gifUrl": "/assets/imgs/poke_97.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 98,
+      "pokedexNumber": 98,
+      "name": "Krabby",
+      "gifUrl": "/assets/imgs/poke_98.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 99,
+      "pokedexNumber": 99,
+      "name": "Kingler",
+      "gifUrl": "/assets/imgs/poke_99.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 100,
+      "pokedexNumber": 100,
+      "name": "Voltorb",
+      "gifUrl": "/assets/imgs/poke_100.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 101,
+      "pokedexNumber": 101,
+      "name": "Electrode",
+      "gifUrl": "/assets/imgs/poke_101.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 102,
+      "pokedexNumber": 102,
+      "name": "Exeggcute",
+      "gifUrl": "/assets/imgs/poke_102.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 103,
+      "pokedexNumber": 103,
+      "name": "Exeggutor",
+      "gifUrl": "/assets/imgs/poke_103.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 104,
+      "pokedexNumber": 104,
+      "name": "Cubone",
+      "gifUrl": "/assets/imgs/poke_104.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 105,
+      "pokedexNumber": 105,
+      "name": "Marowak",
+      "gifUrl": "/assets/imgs/poke_105.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 106,
+      "pokedexNumber": 106,
+      "name": "Hitmonlee",
+      "gifUrl": "/assets/imgs/poke_106.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 107,
+      "pokedexNumber": 107,
+      "name": "Hitmonchan",
+      "gifUrl": "/assets/imgs/poke_107.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 108,
+      "pokedexNumber": 108,
+      "name": "Lickitung",
+      "gifUrl": "/assets/imgs/poke_108.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 109,
+      "pokedexNumber": 109,
+      "name": "Koffing",
+      "gifUrl": "/assets/imgs/poke_109.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 110,
+      "pokedexNumber": 110,
+      "name": "Weezing",
+      "gifUrl": "/assets/imgs/poke_110.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 111,
+      "pokedexNumber": 111,
+      "name": "Rhyhorn",
+      "gifUrl": "/assets/imgs/poke_111.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 112,
+      "pokedexNumber": 112,
+      "name": "Rhydon",
+      "gifUrl": "/assets/imgs/poke_112.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 113,
+      "pokedexNumber": 113,
+      "name": "Chansey",
+      "gifUrl": "/assets/imgs/poke_113.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 114,
+      "pokedexNumber": 114,
+      "name": "Tangela",
+      "gifUrl": "/assets/imgs/poke_114.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 115,
+      "pokedexNumber": 115,
+      "name": "Kangaskhan",
+      "gifUrl": "/assets/imgs/poke_115.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 116,
+      "pokedexNumber": 116,
+      "name": "Horsea",
+      "gifUrl": "/assets/imgs/poke_116.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 117,
+      "pokedexNumber": 117,
+      "name": "Seadra",
+      "gifUrl": "/assets/imgs/poke_117.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 118,
+      "pokedexNumber": 118,
+      "name": "Goldeen",
+      "gifUrl": "/assets/imgs/poke_118.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 119,
+      "pokedexNumber": 119,
+      "name": "Seaking",
+      "gifUrl": "/assets/imgs/poke_119.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 120,
+      "pokedexNumber": 120,
+      "name": "Staryu",
+      "gifUrl": "/assets/imgs/poke_120.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 121,
+      "pokedexNumber": 121,
+      "name": "Starmie",
+      "gifUrl": "/assets/imgs/poke_121.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 122,
+      "pokedexNumber": 122,
+      "name": "Mr-mime",
+      "gifUrl": "/assets/imgs/poke_122.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 123,
+      "pokedexNumber": 123,
+      "name": "Scyther",
+      "gifUrl": "/assets/imgs/poke_123.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 124,
+      "pokedexNumber": 124,
+      "name": "Jynx",
+      "gifUrl": "/assets/imgs/poke_124.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 125,
+      "pokedexNumber": 125,
+      "name": "Electabuzz",
+      "gifUrl": "/assets/imgs/poke_125.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 126,
+      "pokedexNumber": 126,
+      "name": "Magmar",
+      "gifUrl": "/assets/imgs/poke_126.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 127,
+      "pokedexNumber": 127,
+      "name": "Pinsir",
+      "gifUrl": "/assets/imgs/poke_127.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 128,
+      "pokedexNumber": 128,
+      "name": "Tauros",
+      "gifUrl": "/assets/imgs/poke_128.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 129,
+      "pokedexNumber": 129,
+      "name": "Magikarp",
+      "gifUrl": "/assets/imgs/poke_129.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 130,
+      "pokedexNumber": 130,
+      "name": "Gyarados",
+      "gifUrl": "/assets/imgs/poke_130.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 131,
+      "pokedexNumber": 131,
+      "name": "Lapras",
+      "gifUrl": "/assets/imgs/poke_131.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 132,
+      "pokedexNumber": 132,
+      "name": "Ditto",
+      "gifUrl": "/assets/imgs/poke_132.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 133,
+      "pokedexNumber": 133,
+      "name": "Eevee",
+      "gifUrl": "/assets/imgs/poke_133.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 134,
+      "pokedexNumber": 134,
+      "name": "Vaporeon",
+      "gifUrl": "/assets/imgs/poke_134.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 135,
+      "pokedexNumber": 135,
+      "name": "Jolteon",
+      "gifUrl": "/assets/imgs/poke_135.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 136,
+      "pokedexNumber": 136,
+      "name": "Flareon",
+      "gifUrl": "/assets/imgs/poke_136.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 137,
+      "pokedexNumber": 137,
+      "name": "Porygon",
+      "gifUrl": "/assets/imgs/poke_137.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 138,
+      "pokedexNumber": 138,
+      "name": "Omanyte",
+      "gifUrl": "/assets/imgs/poke_138.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 139,
+      "pokedexNumber": 139,
+      "name": "Omastar",
+      "gifUrl": "/assets/imgs/poke_139.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 140,
+      "pokedexNumber": 140,
+      "name": "Kabuto",
+      "gifUrl": "/assets/imgs/poke_140.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 141,
+      "pokedexNumber": 141,
+      "name": "Kabutops",
+      "gifUrl": "/assets/imgs/poke_141.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 142,
+      "pokedexNumber": 142,
+      "name": "Aerodactyl",
+      "gifUrl": "/assets/imgs/poke_142.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 143,
+      "pokedexNumber": 143,
+      "name": "Snorlax",
+      "gifUrl": "/assets/imgs/poke_143.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 144,
+      "pokedexNumber": 144,
+      "name": "Articuno",
+      "gifUrl": "/assets/imgs/poke_144.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 145,
+      "pokedexNumber": 145,
+      "name": "Zapdos",
+      "gifUrl": "/assets/imgs/poke_145.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 146,
+      "pokedexNumber": 146,
+      "name": "Moltres",
+      "gifUrl": "/assets/imgs/poke_146.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 147,
+      "pokedexNumber": 147,
+      "name": "Dratini",
+      "gifUrl": "/assets/imgs/poke_147.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 148,
+      "pokedexNumber": 148,
+      "name": "Dragonair",
+      "gifUrl": "/assets/imgs/poke_148.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 149,
+      "pokedexNumber": 149,
+      "name": "Dragonite",
+      "gifUrl": "/assets/imgs/poke_149.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 150,
+      "pokedexNumber": 150,
+      "name": "Mewtwo",
+      "gifUrl": "/assets/imgs/poke_150.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 151,
+      "pokedexNumber": 151,
+      "name": "Mew",
+      "gifUrl": "/assets/imgs/poke_151.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 152,
+      "pokedexNumber": 152,
+      "name": "Chikorita",
+      "gifUrl": "/assets/imgs/poke_152.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 153,
+      "pokedexNumber": 153,
+      "name": "Bayleef",
+      "gifUrl": "/assets/imgs/poke_153.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 154,
+      "pokedexNumber": 154,
+      "name": "Meganium",
+      "gifUrl": "/assets/imgs/poke_154.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 155,
+      "pokedexNumber": 155,
+      "name": "Cyndaquil",
+      "gifUrl": "/assets/imgs/poke_155.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 156,
+      "pokedexNumber": 156,
+      "name": "Quilava",
+      "gifUrl": "/assets/imgs/poke_156.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 157,
+      "pokedexNumber": 157,
+      "name": "Typhlosion",
+      "gifUrl": "/assets/imgs/poke_157.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 158,
+      "pokedexNumber": 158,
+      "name": "Totodile",
+      "gifUrl": "/assets/imgs/poke_158.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 159,
+      "pokedexNumber": 159,
+      "name": "Croconaw",
+      "gifUrl": "/assets/imgs/poke_159.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 160,
+      "pokedexNumber": 160,
+      "name": "Feraligatr",
+      "gifUrl": "/assets/imgs/poke_160.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 161,
+      "pokedexNumber": 161,
+      "name": "Sentret",
+      "gifUrl": "/assets/imgs/poke_161.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 162,
+      "pokedexNumber": 162,
+      "name": "Furret",
+      "gifUrl": "/assets/imgs/poke_162.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 163,
+      "pokedexNumber": 163,
+      "name": "Hoothoot",
+      "gifUrl": "/assets/imgs/poke_163.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 164,
+      "pokedexNumber": 164,
+      "name": "Noctowl",
+      "gifUrl": "/assets/imgs/poke_164.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 165,
+      "pokedexNumber": 165,
+      "name": "Ledyba",
+      "gifUrl": "/assets/imgs/poke_165.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 166,
+      "pokedexNumber": 166,
+      "name": "Ledian",
+      "gifUrl": "/assets/imgs/poke_166.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 167,
+      "pokedexNumber": 167,
+      "name": "Spinarak",
+      "gifUrl": "/assets/imgs/poke_167.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 168,
+      "pokedexNumber": 168,
+      "name": "Ariados",
+      "gifUrl": "/assets/imgs/poke_168.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 169,
+      "pokedexNumber": 169,
+      "name": "Crobat",
+      "gifUrl": "/assets/imgs/poke_169.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 170,
+      "pokedexNumber": 170,
+      "name": "Chinchou",
+      "gifUrl": "/assets/imgs/poke_170.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 4
+    },
+    {
+      "id": 171,
+      "pokedexNumber": 171,
+      "name": "Lanturn",
+      "gifUrl": "/assets/imgs/poke_171.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 4
+    },
+    {
+      "id": 172,
+      "pokedexNumber": 172,
+      "name": "Pichu",
+      "gifUrl": "/assets/imgs/poke_172.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 173,
+      "pokedexNumber": 173,
+      "name": "Cleffa",
+      "gifUrl": "/assets/imgs/poke_173.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 174,
+      "pokedexNumber": 174,
+      "name": "Igglybuff",
+      "gifUrl": "/assets/imgs/poke_174.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 175,
+      "pokedexNumber": 175,
+      "name": "Togepi",
+      "gifUrl": "/assets/imgs/poke_175.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 176,
+      "pokedexNumber": 176,
+      "name": "Togetic",
+      "gifUrl": "/assets/imgs/poke_176.gif",
+      "primaryTypeId": 18,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 177,
+      "pokedexNumber": 177,
+      "name": "Natu",
+      "gifUrl": "/assets/imgs/poke_177.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 178,
+      "pokedexNumber": 178,
+      "name": "Xatu",
+      "gifUrl": "/assets/imgs/poke_178.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 179,
+      "pokedexNumber": 179,
+      "name": "Mareep",
+      "gifUrl": "/assets/imgs/poke_179.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 180,
+      "pokedexNumber": 180,
+      "name": "Flaaffy",
+      "gifUrl": "/assets/imgs/poke_180.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 181,
+      "pokedexNumber": 181,
+      "name": "Ampharos",
+      "gifUrl": "/assets/imgs/poke_181.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 182,
+      "pokedexNumber": 182,
+      "name": "Bellossom",
+      "gifUrl": "/assets/imgs/poke_182.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 183,
+      "pokedexNumber": 183,
+      "name": "Marill",
+      "gifUrl": "/assets/imgs/poke_183.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 184,
+      "pokedexNumber": 184,
+      "name": "Azumarill",
+      "gifUrl": "/assets/imgs/poke_184.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 185,
+      "pokedexNumber": 185,
+      "name": "Sudowoodo",
+      "gifUrl": "/assets/imgs/poke_185.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 186,
+      "pokedexNumber": 186,
+      "name": "Politoed",
+      "gifUrl": "/assets/imgs/poke_186.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 187,
+      "pokedexNumber": 188,
+      "name": "Skiploom",
+      "gifUrl": "/assets/imgs/poke_188.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 188,
+      "pokedexNumber": 189,
+      "name": "Jumpluff",
+      "gifUrl": "/assets/imgs/poke_189.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 189,
+      "pokedexNumber": 190,
+      "name": "Aipom",
+      "gifUrl": "/assets/imgs/poke_190.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 190,
+      "pokedexNumber": 191,
+      "name": "Sunkern",
+      "gifUrl": "/assets/imgs/poke_191.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 191,
+      "pokedexNumber": 192,
+      "name": "Sunflora",
+      "gifUrl": "/assets/imgs/poke_192.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 192,
+      "pokedexNumber": 193,
+      "name": "Yanma",
+      "gifUrl": "/assets/imgs/poke_193.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 193,
+      "pokedexNumber": 194,
+      "name": "Wooper",
+      "gifUrl": "/assets/imgs/poke_194.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 194,
+      "pokedexNumber": 195,
+      "name": "Quagsire",
+      "gifUrl": "/assets/imgs/poke_195.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 195,
+      "pokedexNumber": 196,
+      "name": "Espeon",
+      "gifUrl": "/assets/imgs/poke_196.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 196,
+      "pokedexNumber": 197,
+      "name": "Umbreon",
+      "gifUrl": "/assets/imgs/poke_197.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 197,
+      "pokedexNumber": 198,
+      "name": "Murkrow",
+      "gifUrl": "/assets/imgs/poke_198.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 198,
+      "pokedexNumber": 199,
+      "name": "Slowking",
+      "gifUrl": "/assets/imgs/poke_199.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 199,
+      "pokedexNumber": 200,
+      "name": "Misdreavus",
+      "gifUrl": "/assets/imgs/poke_200.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 200,
+      "pokedexNumber": 201,
+      "name": "Unown",
+      "gifUrl": "/assets/imgs/poke_201.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 201,
+      "pokedexNumber": 202,
+      "name": "Wobbuffet",
+      "gifUrl": "/assets/imgs/poke_202.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 202,
+      "pokedexNumber": 203,
+      "name": "Girafarig",
+      "gifUrl": "/assets/imgs/poke_203.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 203,
+      "pokedexNumber": 204,
+      "name": "Pineco",
+      "gifUrl": "/assets/imgs/poke_204.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 204,
+      "pokedexNumber": 205,
+      "name": "Forretress",
+      "gifUrl": "/assets/imgs/poke_205.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 205,
+      "pokedexNumber": 206,
+      "name": "Dunsparce",
+      "gifUrl": "/assets/imgs/poke_206.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 206,
+      "pokedexNumber": 207,
+      "name": "Gligar",
+      "gifUrl": "/assets/imgs/poke_207.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 207,
+      "pokedexNumber": 208,
+      "name": "Steelix",
+      "gifUrl": "/assets/imgs/poke_208.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 208,
+      "pokedexNumber": 209,
+      "name": "Snubbull",
+      "gifUrl": "/assets/imgs/poke_209.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 209,
+      "pokedexNumber": 210,
+      "name": "Granbull",
+      "gifUrl": "/assets/imgs/poke_210.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 210,
+      "pokedexNumber": 211,
+      "name": "Qwilfish",
+      "gifUrl": "/assets/imgs/poke_211.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 211,
+      "pokedexNumber": 212,
+      "name": "Scizor",
+      "gifUrl": "/assets/imgs/poke_212.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 212,
+      "pokedexNumber": 213,
+      "name": "Shuckle",
+      "gifUrl": "/assets/imgs/poke_213.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 213,
+      "pokedexNumber": 214,
+      "name": "Heracross",
+      "gifUrl": "/assets/imgs/poke_214.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 214,
+      "pokedexNumber": 215,
+      "name": "Sneasel",
+      "gifUrl": "/assets/imgs/poke_215.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 215,
+      "pokedexNumber": 216,
+      "name": "Teddiursa",
+      "gifUrl": "/assets/imgs/poke_216.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 216,
+      "pokedexNumber": 217,
+      "name": "Ursaring",
+      "gifUrl": "/assets/imgs/poke_217.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 217,
+      "pokedexNumber": 218,
+      "name": "Slugma",
+      "gifUrl": "/assets/imgs/poke_218.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 218,
+      "pokedexNumber": 219,
+      "name": "Magcargo",
+      "gifUrl": "/assets/imgs/poke_219.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 219,
+      "pokedexNumber": 220,
+      "name": "Swinub",
+      "gifUrl": "/assets/imgs/poke_220.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 220,
+      "pokedexNumber": 221,
+      "name": "Piloswine",
+      "gifUrl": "/assets/imgs/poke_221.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 221,
+      "pokedexNumber": 222,
+      "name": "Corsola",
+      "gifUrl": "/assets/imgs/poke_222.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 222,
+      "pokedexNumber": 223,
+      "name": "Remoraid",
+      "gifUrl": "/assets/imgs/poke_223.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 223,
+      "pokedexNumber": 224,
+      "name": "Octillery",
+      "gifUrl": "/assets/imgs/poke_224.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 224,
+      "pokedexNumber": 225,
+      "name": "Delibird",
+      "gifUrl": "/assets/imgs/poke_225.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 225,
+      "pokedexNumber": 226,
+      "name": "Mantine",
+      "gifUrl": "/assets/imgs/poke_226.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 226,
+      "pokedexNumber": 227,
+      "name": "Skarmory",
+      "gifUrl": "/assets/imgs/poke_227.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 227,
+      "pokedexNumber": 228,
+      "name": "Houndour",
+      "gifUrl": "/assets/imgs/poke_228.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 228,
+      "pokedexNumber": 229,
+      "name": "Houndoom",
+      "gifUrl": "/assets/imgs/poke_229.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 229,
+      "pokedexNumber": 230,
+      "name": "Kingdra",
+      "gifUrl": "/assets/imgs/poke_230.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 230,
+      "pokedexNumber": 231,
+      "name": "Phanpy",
+      "gifUrl": "/assets/imgs/poke_231.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 231,
+      "pokedexNumber": 232,
+      "name": "Donphan",
+      "gifUrl": "/assets/imgs/poke_232.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 232,
+      "pokedexNumber": 233,
+      "name": "Porygon2",
+      "gifUrl": "/assets/imgs/poke_233.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 233,
+      "pokedexNumber": 234,
+      "name": "Stantler",
+      "gifUrl": "/assets/imgs/poke_234.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 234,
+      "pokedexNumber": 235,
+      "name": "Smeargle",
+      "gifUrl": "/assets/imgs/poke_235.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 235,
+      "pokedexNumber": 236,
+      "name": "Tyrogue",
+      "gifUrl": "/assets/imgs/poke_236.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 236,
+      "pokedexNumber": 237,
+      "name": "Hitmontop",
+      "gifUrl": "/assets/imgs/poke_237.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 237,
+      "pokedexNumber": 238,
+      "name": "Smoochum",
+      "gifUrl": "/assets/imgs/poke_238.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 238,
+      "pokedexNumber": 239,
+      "name": "Elekid",
+      "gifUrl": "/assets/imgs/poke_239.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 239,
+      "pokedexNumber": 240,
+      "name": "Magby",
+      "gifUrl": "/assets/imgs/poke_240.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 240,
+      "pokedexNumber": 241,
+      "name": "Miltank",
+      "gifUrl": "/assets/imgs/poke_241.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 241,
+      "pokedexNumber": 242,
+      "name": "Blissey",
+      "gifUrl": "/assets/imgs/poke_242.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 242,
+      "pokedexNumber": 243,
+      "name": "Raikou",
+      "gifUrl": "/assets/imgs/poke_243.gif",
+      "primaryTypeId": 4,
+      "isLegendary": true
+    },
+    {
+      "id": 243,
+      "pokedexNumber": 244,
+      "name": "Entei",
+      "gifUrl": "/assets/imgs/poke_244.gif",
+      "primaryTypeId": 2,
+      "isLegendary": true
+    },
+    {
+      "id": 244,
+      "pokedexNumber": 245,
+      "name": "Suicune",
+      "gifUrl": "/assets/imgs/poke_245.gif",
+      "primaryTypeId": 3,
+      "isLegendary": true
+    },
+    {
+      "id": 245,
+      "pokedexNumber": 246,
+      "name": "Larvitar",
+      "gifUrl": "/assets/imgs/poke_246.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 246,
+      "pokedexNumber": 247,
+      "name": "Pupitar",
+      "gifUrl": "/assets/imgs/poke_247.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 247,
+      "pokedexNumber": 248,
+      "name": "Tyranitar",
+      "gifUrl": "/assets/imgs/poke_248.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 248,
+      "pokedexNumber": 249,
+      "name": "Lugia",
+      "gifUrl": "/assets/imgs/poke_249.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 249,
+      "pokedexNumber": 250,
+      "name": "Ho-oh",
+      "gifUrl": "/assets/imgs/poke_250.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 250,
+      "pokedexNumber": 251,
+      "name": "Celebi",
+      "gifUrl": "/assets/imgs/poke_251.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 5,
+      "isLegendary": true
+    },
+    {
+      "id": 251,
+      "pokedexNumber": 252,
+      "name": "Treecko",
+      "gifUrl": "/assets/imgs/poke_252.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 252,
+      "pokedexNumber": 253,
+      "name": "Grovyle",
+      "gifUrl": "/assets/imgs/poke_253.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 253,
+      "pokedexNumber": 254,
+      "name": "Sceptile",
+      "gifUrl": "/assets/imgs/poke_254.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 254,
+      "pokedexNumber": 255,
+      "name": "Torchic",
+      "gifUrl": "/assets/imgs/poke_255.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 255,
+      "pokedexNumber": 256,
+      "name": "Combusken",
+      "gifUrl": "/assets/imgs/poke_256.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 256,
+      "pokedexNumber": 257,
+      "name": "Blaziken",
+      "gifUrl": "/assets/imgs/poke_257.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 257,
+      "pokedexNumber": 258,
+      "name": "Mudkip",
+      "gifUrl": "/assets/imgs/poke_258.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 258,
+      "pokedexNumber": 259,
+      "name": "Marshtomp",
+      "gifUrl": "/assets/imgs/poke_259.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 259,
+      "pokedexNumber": 260,
+      "name": "Swampert",
+      "gifUrl": "/assets/imgs/poke_260.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 260,
+      "pokedexNumber": 261,
+      "name": "Poochyena",
+      "gifUrl": "/assets/imgs/poke_261.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 261,
+      "pokedexNumber": 262,
+      "name": "Mightyena",
+      "gifUrl": "/assets/imgs/poke_262.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 262,
+      "pokedexNumber": 263,
+      "name": "Zigzagoon",
+      "gifUrl": "/assets/imgs/poke_263.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 263,
+      "pokedexNumber": 264,
+      "name": "Linoone",
+      "gifUrl": "/assets/imgs/poke_264.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 264,
+      "pokedexNumber": 265,
+      "name": "Wurmple",
+      "gifUrl": "/assets/imgs/poke_265.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 265,
+      "pokedexNumber": 266,
+      "name": "Silcoon",
+      "gifUrl": "/assets/imgs/poke_266.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 266,
+      "pokedexNumber": 267,
+      "name": "Beautifly",
+      "gifUrl": "/assets/imgs/poke_267.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 267,
+      "pokedexNumber": 268,
+      "name": "Cascoon",
+      "gifUrl": "/assets/imgs/poke_268.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 268,
+      "pokedexNumber": 269,
+      "name": "Dustox",
+      "gifUrl": "/assets/imgs/poke_269.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 269,
+      "pokedexNumber": 270,
+      "name": "Lotad",
+      "gifUrl": "/assets/imgs/poke_270.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 270,
+      "pokedexNumber": 271,
+      "name": "Lombre",
+      "gifUrl": "/assets/imgs/poke_271.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 271,
+      "pokedexNumber": 272,
+      "name": "Ludicolo",
+      "gifUrl": "/assets/imgs/poke_272.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 272,
+      "pokedexNumber": 273,
+      "name": "Seedot",
+      "gifUrl": "/assets/imgs/poke_273.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 273,
+      "pokedexNumber": 274,
+      "name": "Nuzleaf",
+      "gifUrl": "/assets/imgs/poke_274.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 274,
+      "pokedexNumber": 275,
+      "name": "Shiftry",
+      "gifUrl": "/assets/imgs/poke_275.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 275,
+      "pokedexNumber": 276,
+      "name": "Taillow",
+      "gifUrl": "/assets/imgs/poke_276.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 276,
+      "pokedexNumber": 277,
+      "name": "Swellow",
+      "gifUrl": "/assets/imgs/poke_277.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 277,
+      "pokedexNumber": 278,
+      "name": "Wingull",
+      "gifUrl": "/assets/imgs/poke_278.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 278,
+      "pokedexNumber": 279,
+      "name": "Pelipper",
+      "gifUrl": "/assets/imgs/poke_279.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 279,
+      "pokedexNumber": 280,
+      "name": "Ralts",
+      "gifUrl": "/assets/imgs/poke_280.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 280,
+      "pokedexNumber": 281,
+      "name": "Kirlia",
+      "gifUrl": "/assets/imgs/poke_281.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 281,
+      "pokedexNumber": 282,
+      "name": "Gardevoir",
+      "gifUrl": "/assets/imgs/poke_282.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 282,
+      "pokedexNumber": 283,
+      "name": "Surskit",
+      "gifUrl": "/assets/imgs/poke_283.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 283,
+      "pokedexNumber": 284,
+      "name": "Masquerain",
+      "gifUrl": "/assets/imgs/poke_284.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 284,
+      "pokedexNumber": 285,
+      "name": "Shroomish",
+      "gifUrl": "/assets/imgs/poke_285.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 285,
+      "pokedexNumber": 286,
+      "name": "Breloom",
+      "gifUrl": "/assets/imgs/poke_286.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 286,
+      "pokedexNumber": 287,
+      "name": "Slakoth",
+      "gifUrl": "/assets/imgs/poke_287.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 287,
+      "pokedexNumber": 288,
+      "name": "Vigoroth",
+      "gifUrl": "/assets/imgs/poke_288.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 288,
+      "pokedexNumber": 289,
+      "name": "Slaking",
+      "gifUrl": "/assets/imgs/poke_289.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 289,
+      "pokedexNumber": 290,
+      "name": "Nincada",
+      "gifUrl": "/assets/imgs/poke_290.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 290,
+      "pokedexNumber": 291,
+      "name": "Ninjask",
+      "gifUrl": "/assets/imgs/poke_291.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 291,
+      "pokedexNumber": 292,
+      "name": "Shedinja",
+      "gifUrl": "/assets/imgs/poke_292.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 292,
+      "pokedexNumber": 293,
+      "name": "Whismur",
+      "gifUrl": "/assets/imgs/poke_293.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 293,
+      "pokedexNumber": 294,
+      "name": "Loudred",
+      "gifUrl": "/assets/imgs/poke_294.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 294,
+      "pokedexNumber": 295,
+      "name": "Exploud",
+      "gifUrl": "/assets/imgs/poke_295.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 295,
+      "pokedexNumber": 296,
+      "name": "Makuhita",
+      "gifUrl": "/assets/imgs/poke_296.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 296,
+      "pokedexNumber": 297,
+      "name": "Hariyama",
+      "gifUrl": "/assets/imgs/poke_297.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 297,
+      "pokedexNumber": 298,
+      "name": "Azurill",
+      "gifUrl": "/assets/imgs/poke_298.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 298,
+      "pokedexNumber": 299,
+      "name": "Nosepass",
+      "gifUrl": "/assets/imgs/poke_299.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 299,
+      "pokedexNumber": 300,
+      "name": "Skitty",
+      "gifUrl": "/assets/imgs/poke_300.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 300,
+      "pokedexNumber": 301,
+      "name": "Delcatty",
+      "gifUrl": "/assets/imgs/poke_301.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 301,
+      "pokedexNumber": 302,
+      "name": "Sableye",
+      "gifUrl": "/assets/imgs/poke_302.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 302,
+      "pokedexNumber": 303,
+      "name": "Mawile",
+      "gifUrl": "/assets/imgs/poke_303.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 303,
+      "pokedexNumber": 304,
+      "name": "Aron",
+      "gifUrl": "/assets/imgs/poke_304.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 304,
+      "pokedexNumber": 305,
+      "name": "Lairon",
+      "gifUrl": "/assets/imgs/poke_305.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 305,
+      "pokedexNumber": 306,
+      "name": "Aggron",
+      "gifUrl": "/assets/imgs/poke_306.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 306,
+      "pokedexNumber": 307,
+      "name": "Meditite",
+      "gifUrl": "/assets/imgs/poke_307.gif",
+      "primaryTypeId": 7,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 307,
+      "pokedexNumber": 308,
+      "name": "Medicham",
+      "gifUrl": "/assets/imgs/poke_308.gif",
+      "primaryTypeId": 7,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 308,
+      "pokedexNumber": 309,
+      "name": "Electrike",
+      "gifUrl": "/assets/imgs/poke_309.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 309,
+      "pokedexNumber": 310,
+      "name": "Manectric",
+      "gifUrl": "/assets/imgs/poke_310.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 310,
+      "pokedexNumber": 311,
+      "name": "Plusle",
+      "gifUrl": "/assets/imgs/poke_311.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 311,
+      "pokedexNumber": 312,
+      "name": "Minun",
+      "gifUrl": "/assets/imgs/poke_312.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 312,
+      "pokedexNumber": 313,
+      "name": "Volbeat",
+      "gifUrl": "/assets/imgs/poke_313.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 313,
+      "pokedexNumber": 314,
+      "name": "Illumise",
+      "gifUrl": "/assets/imgs/poke_314.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 314,
+      "pokedexNumber": 315,
+      "name": "Roselia",
+      "gifUrl": "/assets/imgs/poke_315.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 315,
+      "pokedexNumber": 316,
+      "name": "Gulpin",
+      "gifUrl": "/assets/imgs/poke_316.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 316,
+      "pokedexNumber": 317,
+      "name": "Swalot",
+      "gifUrl": "/assets/imgs/poke_317.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 317,
+      "pokedexNumber": 318,
+      "name": "Carvanha",
+      "gifUrl": "/assets/imgs/poke_318.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 318,
+      "pokedexNumber": 319,
+      "name": "Sharpedo",
+      "gifUrl": "/assets/imgs/poke_319.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 319,
+      "pokedexNumber": 320,
+      "name": "Wailmer",
+      "gifUrl": "/assets/imgs/poke_320.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 320,
+      "pokedexNumber": 321,
+      "name": "Wailord",
+      "gifUrl": "/assets/imgs/poke_321.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 321,
+      "pokedexNumber": 322,
+      "name": "Numel",
+      "gifUrl": "/assets/imgs/poke_322.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 322,
+      "pokedexNumber": 323,
+      "name": "Camerupt",
+      "gifUrl": "/assets/imgs/poke_323.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 323,
+      "pokedexNumber": 324,
+      "name": "Torkoal",
+      "gifUrl": "/assets/imgs/poke_324.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 324,
+      "pokedexNumber": 325,
+      "name": "Spoink",
+      "gifUrl": "/assets/imgs/poke_325.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 325,
+      "pokedexNumber": 326,
+      "name": "Grumpig",
+      "gifUrl": "/assets/imgs/poke_326.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 326,
+      "pokedexNumber": 327,
+      "name": "Spinda",
+      "gifUrl": "/assets/imgs/poke_327.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 327,
+      "pokedexNumber": 328,
+      "name": "Trapinch",
+      "gifUrl": "/assets/imgs/poke_328.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 328,
+      "pokedexNumber": 329,
+      "name": "Vibrava",
+      "gifUrl": "/assets/imgs/poke_329.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 329,
+      "pokedexNumber": 330,
+      "name": "Flygon",
+      "gifUrl": "/assets/imgs/poke_330.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 330,
+      "pokedexNumber": 331,
+      "name": "Cacnea",
+      "gifUrl": "/assets/imgs/poke_331.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 331,
+      "pokedexNumber": 332,
+      "name": "Cacturne",
+      "gifUrl": "/assets/imgs/poke_332.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 332,
+      "pokedexNumber": 333,
+      "name": "Swablu",
+      "gifUrl": "/assets/imgs/poke_333.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 333,
+      "pokedexNumber": 334,
+      "name": "Altaria",
+      "gifUrl": "/assets/imgs/poke_334.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 334,
+      "pokedexNumber": 335,
+      "name": "Zangoose",
+      "gifUrl": "/assets/imgs/poke_335.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 335,
+      "pokedexNumber": 336,
+      "name": "Seviper",
+      "gifUrl": "/assets/imgs/poke_336.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 336,
+      "pokedexNumber": 337,
+      "name": "Lunatone",
+      "gifUrl": "/assets/imgs/poke_337.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 337,
+      "pokedexNumber": 338,
+      "name": "Solrock",
+      "gifUrl": "/assets/imgs/poke_338.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 338,
+      "pokedexNumber": 339,
+      "name": "Barboach",
+      "gifUrl": "/assets/imgs/poke_339.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 339,
+      "pokedexNumber": 340,
+      "name": "Whiscash",
+      "gifUrl": "/assets/imgs/poke_340.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 340,
+      "pokedexNumber": 341,
+      "name": "Corphish",
+      "gifUrl": "/assets/imgs/poke_341.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 341,
+      "pokedexNumber": 342,
+      "name": "Crawdaunt",
+      "gifUrl": "/assets/imgs/poke_342.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 342,
+      "pokedexNumber": 343,
+      "name": "Baltoy",
+      "gifUrl": "/assets/imgs/poke_343.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 343,
+      "pokedexNumber": 344,
+      "name": "Claydol",
+      "gifUrl": "/assets/imgs/poke_344.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 344,
+      "pokedexNumber": 345,
+      "name": "Lileep",
+      "gifUrl": "/assets/imgs/poke_345.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 345,
+      "pokedexNumber": 346,
+      "name": "Cradily",
+      "gifUrl": "/assets/imgs/poke_346.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 346,
+      "pokedexNumber": 347,
+      "name": "Anorith",
+      "gifUrl": "/assets/imgs/poke_347.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 12
+    },
+    {
+      "id": 347,
+      "pokedexNumber": 348,
+      "name": "Armaldo",
+      "gifUrl": "/assets/imgs/poke_348.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 12
+    },
+    {
+      "id": 348,
+      "pokedexNumber": 349,
+      "name": "Feebas",
+      "gifUrl": "/assets/imgs/poke_349.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 349,
+      "pokedexNumber": 350,
+      "name": "Milotic",
+      "gifUrl": "/assets/imgs/poke_350.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 350,
+      "pokedexNumber": 351,
+      "name": "Castform",
+      "gifUrl": "/assets/imgs/poke_351.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 351,
+      "pokedexNumber": 352,
+      "name": "Kecleon",
+      "gifUrl": "/assets/imgs/poke_352.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 352,
+      "pokedexNumber": 353,
+      "name": "Shuppet",
+      "gifUrl": "/assets/imgs/poke_353.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 353,
+      "pokedexNumber": 354,
+      "name": "Banette",
+      "gifUrl": "/assets/imgs/poke_354.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 354,
+      "pokedexNumber": 355,
+      "name": "Duskull",
+      "gifUrl": "/assets/imgs/poke_355.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 355,
+      "pokedexNumber": 356,
+      "name": "Dusclops",
+      "gifUrl": "/assets/imgs/poke_356.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 356,
+      "pokedexNumber": 357,
+      "name": "Tropius",
+      "gifUrl": "/assets/imgs/poke_357.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 357,
+      "pokedexNumber": 358,
+      "name": "Chimecho",
+      "gifUrl": "/assets/imgs/poke_358.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 358,
+      "pokedexNumber": 359,
+      "name": "Absol",
+      "gifUrl": "/assets/imgs/poke_359.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 359,
+      "pokedexNumber": 360,
+      "name": "Wynaut",
+      "gifUrl": "/assets/imgs/poke_360.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 360,
+      "pokedexNumber": 361,
+      "name": "Snorunt",
+      "gifUrl": "/assets/imgs/poke_361.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 361,
+      "pokedexNumber": 362,
+      "name": "Glalie",
+      "gifUrl": "/assets/imgs/poke_362.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 362,
+      "pokedexNumber": 363,
+      "name": "Spheal",
+      "gifUrl": "/assets/imgs/poke_363.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 363,
+      "pokedexNumber": 364,
+      "name": "Sealeo",
+      "gifUrl": "/assets/imgs/poke_364.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 364,
+      "pokedexNumber": 365,
+      "name": "Walrein",
+      "gifUrl": "/assets/imgs/poke_365.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 365,
+      "pokedexNumber": 366,
+      "name": "Clamperl",
+      "gifUrl": "/assets/imgs/poke_366.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 366,
+      "pokedexNumber": 367,
+      "name": "Huntail",
+      "gifUrl": "/assets/imgs/poke_367.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 367,
+      "pokedexNumber": 368,
+      "name": "Gorebyss",
+      "gifUrl": "/assets/imgs/poke_368.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 368,
+      "pokedexNumber": 369,
+      "name": "Relicanth",
+      "gifUrl": "/assets/imgs/poke_369.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 369,
+      "pokedexNumber": 370,
+      "name": "Luvdisc",
+      "gifUrl": "/assets/imgs/poke_370.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 370,
+      "pokedexNumber": 371,
+      "name": "Bagon",
+      "gifUrl": "/assets/imgs/poke_371.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 371,
+      "pokedexNumber": 372,
+      "name": "Shelgon",
+      "gifUrl": "/assets/imgs/poke_372.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 372,
+      "pokedexNumber": 373,
+      "name": "Salamence",
+      "gifUrl": "/assets/imgs/poke_373.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 373,
+      "pokedexNumber": 374,
+      "name": "Beldum",
+      "gifUrl": "/assets/imgs/poke_374.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 374,
+      "pokedexNumber": 375,
+      "name": "Metang",
+      "gifUrl": "/assets/imgs/poke_375.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 375,
+      "pokedexNumber": 376,
+      "name": "Metagross",
+      "gifUrl": "/assets/imgs/poke_376.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 376,
+      "pokedexNumber": 377,
+      "name": "Regirock",
+      "gifUrl": "/assets/imgs/poke_377.gif",
+      "primaryTypeId": 13,
+      "isLegendary": true
+    },
+    {
+      "id": 377,
+      "pokedexNumber": 378,
+      "name": "Regice",
+      "gifUrl": "/assets/imgs/poke_378.gif",
+      "primaryTypeId": 6,
+      "isLegendary": true
+    },
+    {
+      "id": 378,
+      "pokedexNumber": 379,
+      "name": "Registeel",
+      "gifUrl": "/assets/imgs/poke_379.gif",
+      "primaryTypeId": 17,
+      "isLegendary": true
+    },
+    {
+      "id": 379,
+      "pokedexNumber": 380,
+      "name": "Latias",
+      "gifUrl": "/assets/imgs/poke_380.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 380,
+      "pokedexNumber": 381,
+      "name": "Latios",
+      "gifUrl": "/assets/imgs/poke_381.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 381,
+      "pokedexNumber": 382,
+      "name": "Kyogre",
+      "gifUrl": "/assets/imgs/poke_382.gif",
+      "primaryTypeId": 3,
+      "isLegendary": true
+    },
+    {
+      "id": 382,
+      "pokedexNumber": 383,
+      "name": "Groudon",
+      "gifUrl": "/assets/imgs/poke_383.gif",
+      "primaryTypeId": 9,
+      "isLegendary": true
+    },
+    {
+      "id": 383,
+      "pokedexNumber": 384,
+      "name": "Rayquaza",
+      "gifUrl": "/assets/imgs/poke_384.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 384,
+      "pokedexNumber": 385,
+      "name": "Jirachi",
+      "gifUrl": "/assets/imgs/poke_385.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 385,
+      "pokedexNumber": 386,
+      "name": "Deoxys-normal",
+      "gifUrl": "/assets/imgs/poke_386.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 386,
+      "pokedexNumber": 387,
+      "name": "Turtwig",
+      "gifUrl": "/assets/imgs/poke_387.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 387,
+      "pokedexNumber": 388,
+      "name": "Grotle",
+      "gifUrl": "/assets/imgs/poke_388.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 388,
+      "pokedexNumber": 389,
+      "name": "Torterra",
+      "gifUrl": "/assets/imgs/poke_389.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 389,
+      "pokedexNumber": 390,
+      "name": "Chimchar",
+      "gifUrl": "/assets/imgs/poke_390.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 390,
+      "pokedexNumber": 391,
+      "name": "Monferno",
+      "gifUrl": "/assets/imgs/poke_391.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 391,
+      "pokedexNumber": 392,
+      "name": "Infernape",
+      "gifUrl": "/assets/imgs/poke_392.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 392,
+      "pokedexNumber": 393,
+      "name": "Piplup",
+      "gifUrl": "/assets/imgs/poke_393.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 393,
+      "pokedexNumber": 394,
+      "name": "Prinplup",
+      "gifUrl": "/assets/imgs/poke_394.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 394,
+      "pokedexNumber": 395,
+      "name": "Empoleon",
+      "gifUrl": "/assets/imgs/poke_395.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 395,
+      "pokedexNumber": 396,
+      "name": "Starly",
+      "gifUrl": "/assets/imgs/poke_396.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 396,
+      "pokedexNumber": 397,
+      "name": "Staravia",
+      "gifUrl": "/assets/imgs/poke_397.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 397,
+      "pokedexNumber": 398,
+      "name": "Staraptor",
+      "gifUrl": "/assets/imgs/poke_398.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 398,
+      "pokedexNumber": 399,
+      "name": "Bidoof",
+      "gifUrl": "/assets/imgs/poke_399.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 399,
+      "pokedexNumber": 400,
+      "name": "Bibarel",
+      "gifUrl": "/assets/imgs/poke_400.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 400,
+      "pokedexNumber": 401,
+      "name": "Kricketot",
+      "gifUrl": "/assets/imgs/poke_401.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 401,
+      "pokedexNumber": 402,
+      "name": "Kricketune",
+      "gifUrl": "/assets/imgs/poke_402.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 402,
+      "pokedexNumber": 403,
+      "name": "Shinx",
+      "gifUrl": "/assets/imgs/poke_403.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 403,
+      "pokedexNumber": 404,
+      "name": "Luxio",
+      "gifUrl": "/assets/imgs/poke_404.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 404,
+      "pokedexNumber": 405,
+      "name": "Luxray",
+      "gifUrl": "/assets/imgs/poke_405.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 405,
+      "pokedexNumber": 406,
+      "name": "Budew",
+      "gifUrl": "/assets/imgs/poke_406.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 406,
+      "pokedexNumber": 407,
+      "name": "Roserade",
+      "gifUrl": "/assets/imgs/poke_407.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 407,
+      "pokedexNumber": 408,
+      "name": "Cranidos",
+      "gifUrl": "/assets/imgs/poke_408.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 408,
+      "pokedexNumber": 409,
+      "name": "Rampardos",
+      "gifUrl": "/assets/imgs/poke_409.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 409,
+      "pokedexNumber": 410,
+      "name": "Shieldon",
+      "gifUrl": "/assets/imgs/poke_410.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 410,
+      "pokedexNumber": 411,
+      "name": "Bastiodon",
+      "gifUrl": "/assets/imgs/poke_411.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 411,
+      "pokedexNumber": 412,
+      "name": "Burmy",
+      "gifUrl": "/assets/imgs/poke_412.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 412,
+      "pokedexNumber": 413,
+      "name": "Wormadam-plant",
+      "gifUrl": "/assets/imgs/poke_413.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 413,
+      "pokedexNumber": 414,
+      "name": "Mothim",
+      "gifUrl": "/assets/imgs/poke_414.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 414,
+      "pokedexNumber": 415,
+      "name": "Combee",
+      "gifUrl": "/assets/imgs/poke_415.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 415,
+      "pokedexNumber": 416,
+      "name": "Vespiquen",
+      "gifUrl": "/assets/imgs/poke_416.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 416,
+      "pokedexNumber": 417,
+      "name": "Pachirisu",
+      "gifUrl": "/assets/imgs/poke_417.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 417,
+      "pokedexNumber": 418,
+      "name": "Buizel",
+      "gifUrl": "/assets/imgs/poke_418.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 418,
+      "pokedexNumber": 419,
+      "name": "Floatzel",
+      "gifUrl": "/assets/imgs/poke_419.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 419,
+      "pokedexNumber": 420,
+      "name": "Cherubi",
+      "gifUrl": "/assets/imgs/poke_420.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 420,
+      "pokedexNumber": 421,
+      "name": "Cherrim",
+      "gifUrl": "/assets/imgs/poke_421.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 421,
+      "pokedexNumber": 422,
+      "name": "Shellos",
+      "gifUrl": "/assets/imgs/poke_422.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 422,
+      "pokedexNumber": 423,
+      "name": "Gastrodon",
+      "gifUrl": "/assets/imgs/poke_423.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 423,
+      "pokedexNumber": 424,
+      "name": "Ambipom",
+      "gifUrl": "/assets/imgs/poke_424.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 424,
+      "pokedexNumber": 425,
+      "name": "Drifloon",
+      "gifUrl": "/assets/imgs/poke_425.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 425,
+      "pokedexNumber": 426,
+      "name": "Drifblim",
+      "gifUrl": "/assets/imgs/poke_426.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 426,
+      "pokedexNumber": 427,
+      "name": "Buneary",
+      "gifUrl": "/assets/imgs/poke_427.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 427,
+      "pokedexNumber": 428,
+      "name": "Lopunny",
+      "gifUrl": "/assets/imgs/poke_428.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 428,
+      "pokedexNumber": 429,
+      "name": "Mismagius",
+      "gifUrl": "/assets/imgs/poke_429.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 429,
+      "pokedexNumber": 430,
+      "name": "Honchkrow",
+      "gifUrl": "/assets/imgs/poke_430.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 430,
+      "pokedexNumber": 431,
+      "name": "Glameow",
+      "gifUrl": "/assets/imgs/poke_431.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 431,
+      "pokedexNumber": 432,
+      "name": "Purugly",
+      "gifUrl": "/assets/imgs/poke_432.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 432,
+      "pokedexNumber": 433,
+      "name": "Chingling",
+      "gifUrl": "/assets/imgs/poke_433.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 433,
+      "pokedexNumber": 434,
+      "name": "Stunky",
+      "gifUrl": "/assets/imgs/poke_434.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 434,
+      "pokedexNumber": 435,
+      "name": "Skuntank",
+      "gifUrl": "/assets/imgs/poke_435.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 435,
+      "pokedexNumber": 436,
+      "name": "Bronzor",
+      "gifUrl": "/assets/imgs/poke_436.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 436,
+      "pokedexNumber": 437,
+      "name": "Bronzong",
+      "gifUrl": "/assets/imgs/poke_437.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 437,
+      "pokedexNumber": 438,
+      "name": "Bonsly",
+      "gifUrl": "/assets/imgs/poke_438.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 438,
+      "pokedexNumber": 439,
+      "name": "Mime-jr",
+      "gifUrl": "/assets/imgs/poke_439.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 439,
+      "pokedexNumber": 440,
+      "name": "Happiny",
+      "gifUrl": "/assets/imgs/poke_440.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 440,
+      "pokedexNumber": 441,
+      "name": "Chatot",
+      "gifUrl": "/assets/imgs/poke_441.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 441,
+      "pokedexNumber": 442,
+      "name": "Spiritomb",
+      "gifUrl": "/assets/imgs/poke_442.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 442,
+      "pokedexNumber": 443,
+      "name": "Gible",
+      "gifUrl": "/assets/imgs/poke_443.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 443,
+      "pokedexNumber": 444,
+      "name": "Gabite",
+      "gifUrl": "/assets/imgs/poke_444.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 444,
+      "pokedexNumber": 445,
+      "name": "Garchomp",
+      "gifUrl": "/assets/imgs/poke_445.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 445,
+      "pokedexNumber": 446,
+      "name": "Munchlax",
+      "gifUrl": "/assets/imgs/poke_446.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 446,
+      "pokedexNumber": 447,
+      "name": "Riolu",
+      "gifUrl": "/assets/imgs/poke_447.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 447,
+      "pokedexNumber": 448,
+      "name": "Lucario",
+      "gifUrl": "/assets/imgs/poke_448.gif",
+      "primaryTypeId": 7,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 448,
+      "pokedexNumber": 449,
+      "name": "Hippopotas",
+      "gifUrl": "/assets/imgs/poke_449.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 449,
+      "pokedexNumber": 450,
+      "name": "Hippowdon",
+      "gifUrl": "/assets/imgs/poke_450.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 450,
+      "pokedexNumber": 451,
+      "name": "Skorupi",
+      "gifUrl": "/assets/imgs/poke_451.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 12
+    },
+    {
+      "id": 451,
+      "pokedexNumber": 452,
+      "name": "Drapion",
+      "gifUrl": "/assets/imgs/poke_452.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 452,
+      "pokedexNumber": 453,
+      "name": "Croagunk",
+      "gifUrl": "/assets/imgs/poke_453.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 453,
+      "pokedexNumber": 454,
+      "name": "Toxicroak",
+      "gifUrl": "/assets/imgs/poke_454.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 454,
+      "pokedexNumber": 455,
+      "name": "Carnivine",
+      "gifUrl": "/assets/imgs/poke_455.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 455,
+      "pokedexNumber": 456,
+      "name": "Finneon",
+      "gifUrl": "/assets/imgs/poke_456.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 456,
+      "pokedexNumber": 457,
+      "name": "Lumineon",
+      "gifUrl": "/assets/imgs/poke_457.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 457,
+      "pokedexNumber": 458,
+      "name": "Mantyke",
+      "gifUrl": "/assets/imgs/poke_458.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 458,
+      "pokedexNumber": 459,
+      "name": "Snover",
+      "gifUrl": "/assets/imgs/poke_459.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 459,
+      "pokedexNumber": 460,
+      "name": "Abomasnow",
+      "gifUrl": "/assets/imgs/poke_460.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 460,
+      "pokedexNumber": 461,
+      "name": "Weavile",
+      "gifUrl": "/assets/imgs/poke_461.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 461,
+      "pokedexNumber": 462,
+      "name": "Magnezone",
+      "gifUrl": "/assets/imgs/poke_462.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 462,
+      "pokedexNumber": 463,
+      "name": "Lickilicky",
+      "gifUrl": "/assets/imgs/poke_463.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 463,
+      "pokedexNumber": 464,
+      "name": "Rhyperior",
+      "gifUrl": "/assets/imgs/poke_464.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 464,
+      "pokedexNumber": 465,
+      "name": "Tangrowth",
+      "gifUrl": "/assets/imgs/poke_465.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 465,
+      "pokedexNumber": 466,
+      "name": "Electivire",
+      "gifUrl": "/assets/imgs/poke_466.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 466,
+      "pokedexNumber": 467,
+      "name": "Magmortar",
+      "gifUrl": "/assets/imgs/poke_467.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 467,
+      "pokedexNumber": 468,
+      "name": "Togekiss",
+      "gifUrl": "/assets/imgs/poke_468.gif",
+      "primaryTypeId": 18,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 468,
+      "pokedexNumber": 469,
+      "name": "Yanmega",
+      "gifUrl": "/assets/imgs/poke_469.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 469,
+      "pokedexNumber": 470,
+      "name": "Leafeon",
+      "gifUrl": "/assets/imgs/poke_470.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 470,
+      "pokedexNumber": 471,
+      "name": "Glaceon",
+      "gifUrl": "/assets/imgs/poke_471.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 471,
+      "pokedexNumber": 472,
+      "name": "Gliscor",
+      "gifUrl": "/assets/imgs/poke_472.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 472,
+      "pokedexNumber": 473,
+      "name": "Mamoswine",
+      "gifUrl": "/assets/imgs/poke_473.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 473,
+      "pokedexNumber": 474,
+      "name": "Porygon-z",
+      "gifUrl": "/assets/imgs/poke_474.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 474,
+      "pokedexNumber": 475,
+      "name": "Gallade",
+      "gifUrl": "/assets/imgs/poke_475.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 475,
+      "pokedexNumber": 476,
+      "name": "Probopass",
+      "gifUrl": "/assets/imgs/poke_476.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 476,
+      "pokedexNumber": 477,
+      "name": "Dusknoir",
+      "gifUrl": "/assets/imgs/poke_477.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 477,
+      "pokedexNumber": 478,
+      "name": "Froslass",
+      "gifUrl": "/assets/imgs/poke_478.gif",
+      "primaryTypeId": 6,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 478,
+      "pokedexNumber": 479,
+      "name": "Rotom",
+      "gifUrl": "/assets/imgs/poke_479.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 479,
+      "pokedexNumber": 480,
+      "name": "Uxie",
+      "gifUrl": "/assets/imgs/poke_480.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 480,
+      "pokedexNumber": 481,
+      "name": "Mesprit",
+      "gifUrl": "/assets/imgs/poke_481.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 481,
+      "pokedexNumber": 482,
+      "name": "Azelf",
+      "gifUrl": "/assets/imgs/poke_482.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 482,
+      "pokedexNumber": 483,
+      "name": "Dialga",
+      "gifUrl": "/assets/imgs/poke_483.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 15,
+      "isLegendary": true
+    },
+    {
+      "id": 483,
+      "pokedexNumber": 484,
+      "name": "Palkia",
+      "gifUrl": "/assets/imgs/poke_484.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 15,
+      "isLegendary": true
+    },
+    {
+      "id": 484,
+      "pokedexNumber": 485,
+      "name": "Heatran",
+      "gifUrl": "/assets/imgs/poke_485.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 17,
+      "isLegendary": true
+    },
+    {
+      "id": 485,
+      "pokedexNumber": 486,
+      "name": "Regigigas",
+      "gifUrl": "/assets/imgs/poke_486.gif",
+      "primaryTypeId": 1,
+      "isLegendary": true
+    },
+    {
+      "id": 486,
+      "pokedexNumber": 487,
+      "name": "Giratina-altered",
+      "gifUrl": "/assets/imgs/poke_487.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 15,
+      "isLegendary": true
+    },
+    {
+      "id": 487,
+      "pokedexNumber": 488,
+      "name": "Cresselia",
+      "gifUrl": "/assets/imgs/poke_488.gif",
+      "primaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 488,
+      "pokedexNumber": 489,
+      "name": "Phione",
+      "gifUrl": "/assets/imgs/poke_489.gif",
+      "primaryTypeId": 3,
+      "isLegendary": true
+    },
+    {
+      "id": 489,
+      "pokedexNumber": 490,
+      "name": "Manaphy",
+      "gifUrl": "/assets/imgs/poke_490.gif",
+      "primaryTypeId": 3,
+      "isLegendary": true
+    },
+    {
+      "id": 490,
+      "pokedexNumber": 491,
+      "name": "Darkrai",
+      "gifUrl": "/assets/imgs/poke_491.gif",
+      "primaryTypeId": 16,
+      "isLegendary": true
+    },
+    {
+      "id": 491,
+      "pokedexNumber": 492,
+      "name": "Shaymin-land",
+      "gifUrl": "/assets/imgs/poke_492.gif",
+      "primaryTypeId": 5,
+      "isLegendary": true
+    },
+    {
+      "id": 492,
+      "pokedexNumber": 493,
+      "name": "Arceus",
+      "gifUrl": "/assets/imgs/poke_493.gif",
+      "primaryTypeId": 1,
+      "isLegendary": true
+    },
+    {
+      "id": 493,
+      "pokedexNumber": 494,
+      "name": "Victini",
+      "gifUrl": "/assets/imgs/poke_494.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 2,
+      "isLegendary": true
+    },
+    {
+      "id": 494,
+      "pokedexNumber": 495,
+      "name": "Snivy",
+      "gifUrl": "/assets/imgs/poke_495.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 495,
+      "pokedexNumber": 496,
+      "name": "Servine",
+      "gifUrl": "/assets/imgs/poke_496.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 496,
+      "pokedexNumber": 497,
+      "name": "Serperior",
+      "gifUrl": "/assets/imgs/poke_497.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 497,
+      "pokedexNumber": 498,
+      "name": "Tepig",
+      "gifUrl": "/assets/imgs/poke_498.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 498,
+      "pokedexNumber": 499,
+      "name": "Pignite",
+      "gifUrl": "/assets/imgs/poke_499.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 499,
+      "pokedexNumber": 500,
+      "name": "Emboar",
+      "gifUrl": "/assets/imgs/poke_500.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 500,
+      "pokedexNumber": 501,
+      "name": "Oshawott",
+      "gifUrl": "/assets/imgs/poke_501.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 501,
+      "pokedexNumber": 502,
+      "name": "Dewott",
+      "gifUrl": "/assets/imgs/poke_502.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 502,
+      "pokedexNumber": 503,
+      "name": "Samurott",
+      "gifUrl": "/assets/imgs/poke_503.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 503,
+      "pokedexNumber": 504,
+      "name": "Patrat",
+      "gifUrl": "/assets/imgs/poke_504.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 504,
+      "pokedexNumber": 505,
+      "name": "Watchog",
+      "gifUrl": "/assets/imgs/poke_505.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 505,
+      "pokedexNumber": 506,
+      "name": "Lillipup",
+      "gifUrl": "/assets/imgs/poke_506.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 506,
+      "pokedexNumber": 507,
+      "name": "Herdier",
+      "gifUrl": "/assets/imgs/poke_507.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 507,
+      "pokedexNumber": 508,
+      "name": "Stoutland",
+      "gifUrl": "/assets/imgs/poke_508.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 508,
+      "pokedexNumber": 509,
+      "name": "Purrloin",
+      "gifUrl": "/assets/imgs/poke_509.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 509,
+      "pokedexNumber": 510,
+      "name": "Liepard",
+      "gifUrl": "/assets/imgs/poke_510.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 510,
+      "pokedexNumber": 511,
+      "name": "Pansage",
+      "gifUrl": "/assets/imgs/poke_511.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 511,
+      "pokedexNumber": 512,
+      "name": "Simisage",
+      "gifUrl": "/assets/imgs/poke_512.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 512,
+      "pokedexNumber": 513,
+      "name": "Pansear",
+      "gifUrl": "/assets/imgs/poke_513.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 513,
+      "pokedexNumber": 514,
+      "name": "Simisear",
+      "gifUrl": "/assets/imgs/poke_514.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 514,
+      "pokedexNumber": 515,
+      "name": "Panpour",
+      "gifUrl": "/assets/imgs/poke_515.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 515,
+      "pokedexNumber": 516,
+      "name": "Simipour",
+      "gifUrl": "/assets/imgs/poke_516.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 516,
+      "pokedexNumber": 517,
+      "name": "Munna",
+      "gifUrl": "/assets/imgs/poke_517.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 517,
+      "pokedexNumber": 518,
+      "name": "Musharna",
+      "gifUrl": "/assets/imgs/poke_518.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 518,
+      "pokedexNumber": 519,
+      "name": "Pidove",
+      "gifUrl": "/assets/imgs/poke_519.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 519,
+      "pokedexNumber": 520,
+      "name": "Tranquill",
+      "gifUrl": "/assets/imgs/poke_520.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 520,
+      "pokedexNumber": 521,
+      "name": "Unfezant",
+      "gifUrl": "/assets/imgs/poke_521.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 521,
+      "pokedexNumber": 522,
+      "name": "Blitzle",
+      "gifUrl": "/assets/imgs/poke_522.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 522,
+      "pokedexNumber": 523,
+      "name": "Zebstrika",
+      "gifUrl": "/assets/imgs/poke_523.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 523,
+      "pokedexNumber": 524,
+      "name": "Roggenrola",
+      "gifUrl": "/assets/imgs/poke_524.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 524,
+      "pokedexNumber": 525,
+      "name": "Boldore",
+      "gifUrl": "/assets/imgs/poke_525.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 525,
+      "pokedexNumber": 526,
+      "name": "Gigalith",
+      "gifUrl": "/assets/imgs/poke_526.gif",
+      "primaryTypeId": 13
+    },
+    {
+      "id": 526,
+      "pokedexNumber": 527,
+      "name": "Woobat",
+      "gifUrl": "/assets/imgs/poke_527.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 527,
+      "pokedexNumber": 528,
+      "name": "Swoobat",
+      "gifUrl": "/assets/imgs/poke_528.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 528,
+      "pokedexNumber": 529,
+      "name": "Drilbur",
+      "gifUrl": "/assets/imgs/poke_529.gif",
+      "primaryTypeId": 9
+    },
+    {
+      "id": 529,
+      "pokedexNumber": 530,
+      "name": "Excadrill",
+      "gifUrl": "/assets/imgs/poke_530.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 530,
+      "pokedexNumber": 531,
+      "name": "Audino",
+      "gifUrl": "/assets/imgs/poke_531.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 531,
+      "pokedexNumber": 532,
+      "name": "Timburr",
+      "gifUrl": "/assets/imgs/poke_532.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 532,
+      "pokedexNumber": 533,
+      "name": "Gurdurr",
+      "gifUrl": "/assets/imgs/poke_533.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 533,
+      "pokedexNumber": 534,
+      "name": "Conkeldurr",
+      "gifUrl": "/assets/imgs/poke_534.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 534,
+      "pokedexNumber": 535,
+      "name": "Tympole",
+      "gifUrl": "/assets/imgs/poke_535.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 535,
+      "pokedexNumber": 536,
+      "name": "Palpitoad",
+      "gifUrl": "/assets/imgs/poke_536.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 536,
+      "pokedexNumber": 537,
+      "name": "Seismitoad",
+      "gifUrl": "/assets/imgs/poke_537.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 537,
+      "pokedexNumber": 538,
+      "name": "Throh",
+      "gifUrl": "/assets/imgs/poke_538.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 538,
+      "pokedexNumber": 539,
+      "name": "Sawk",
+      "gifUrl": "/assets/imgs/poke_539.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 539,
+      "pokedexNumber": 540,
+      "name": "Sewaddle",
+      "gifUrl": "/assets/imgs/poke_540.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 540,
+      "pokedexNumber": 541,
+      "name": "Swadloon",
+      "gifUrl": "/assets/imgs/poke_541.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 541,
+      "pokedexNumber": 542,
+      "name": "Leavanny",
+      "gifUrl": "/assets/imgs/poke_542.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 542,
+      "pokedexNumber": 543,
+      "name": "Venipede",
+      "gifUrl": "/assets/imgs/poke_543.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 543,
+      "pokedexNumber": 544,
+      "name": "Whirlipede",
+      "gifUrl": "/assets/imgs/poke_544.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 544,
+      "pokedexNumber": 545,
+      "name": "Scolipede",
+      "gifUrl": "/assets/imgs/poke_545.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 545,
+      "pokedexNumber": 546,
+      "name": "Cottonee",
+      "gifUrl": "/assets/imgs/poke_546.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 546,
+      "pokedexNumber": 547,
+      "name": "Whimsicott",
+      "gifUrl": "/assets/imgs/poke_547.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 547,
+      "pokedexNumber": 548,
+      "name": "Petilil",
+      "gifUrl": "/assets/imgs/poke_548.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 548,
+      "pokedexNumber": 549,
+      "name": "Lilligant",
+      "gifUrl": "/assets/imgs/poke_549.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 549,
+      "pokedexNumber": 550,
+      "name": "Basculin-red-striped",
+      "gifUrl": "/assets/imgs/poke_550.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 550,
+      "pokedexNumber": 551,
+      "name": "Sandile",
+      "gifUrl": "/assets/imgs/poke_551.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 551,
+      "pokedexNumber": 552,
+      "name": "Krokorok",
+      "gifUrl": "/assets/imgs/poke_552.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 552,
+      "pokedexNumber": 553,
+      "name": "Krookodile",
+      "gifUrl": "/assets/imgs/poke_553.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 553,
+      "pokedexNumber": 554,
+      "name": "Darumaka",
+      "gifUrl": "/assets/imgs/poke_554.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 554,
+      "pokedexNumber": 555,
+      "name": "Darmanitan-standard",
+      "gifUrl": "/assets/imgs/poke_555.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 555,
+      "pokedexNumber": 556,
+      "name": "Maractus",
+      "gifUrl": "/assets/imgs/poke_556.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 556,
+      "pokedexNumber": 557,
+      "name": "Dwebble",
+      "gifUrl": "/assets/imgs/poke_557.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 557,
+      "pokedexNumber": 558,
+      "name": "Crustle",
+      "gifUrl": "/assets/imgs/poke_558.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 558,
+      "pokedexNumber": 559,
+      "name": "Scraggy",
+      "gifUrl": "/assets/imgs/poke_559.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 559,
+      "pokedexNumber": 560,
+      "name": "Scrafty",
+      "gifUrl": "/assets/imgs/poke_560.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 560,
+      "pokedexNumber": 561,
+      "name": "Sigilyph",
+      "gifUrl": "/assets/imgs/poke_561.gif",
+      "primaryTypeId": 11,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 561,
+      "pokedexNumber": 562,
+      "name": "Yamask",
+      "gifUrl": "/assets/imgs/poke_562.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 562,
+      "pokedexNumber": 563,
+      "name": "Cofagrigus",
+      "gifUrl": "/assets/imgs/poke_563.gif",
+      "primaryTypeId": 14
+    },
+    {
+      "id": 563,
+      "pokedexNumber": 564,
+      "name": "Tirtouga",
+      "gifUrl": "/assets/imgs/poke_564.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 564,
+      "pokedexNumber": 565,
+      "name": "Carracosta",
+      "gifUrl": "/assets/imgs/poke_565.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 13
+    },
+    {
+      "id": 565,
+      "pokedexNumber": 566,
+      "name": "Archen",
+      "gifUrl": "/assets/imgs/poke_566.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 566,
+      "pokedexNumber": 567,
+      "name": "Archeops",
+      "gifUrl": "/assets/imgs/poke_567.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 567,
+      "pokedexNumber": 568,
+      "name": "Trubbish",
+      "gifUrl": "/assets/imgs/poke_568.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 568,
+      "pokedexNumber": 569,
+      "name": "Garbodor",
+      "gifUrl": "/assets/imgs/poke_569.gif",
+      "primaryTypeId": 8
+    },
+    {
+      "id": 569,
+      "pokedexNumber": 570,
+      "name": "Zorua",
+      "gifUrl": "/assets/imgs/poke_570.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 570,
+      "pokedexNumber": 571,
+      "name": "Zoroark",
+      "gifUrl": "/assets/imgs/poke_571.gif",
+      "primaryTypeId": 16
+    },
+    {
+      "id": 571,
+      "pokedexNumber": 572,
+      "name": "Minccino",
+      "gifUrl": "/assets/imgs/poke_572.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 572,
+      "pokedexNumber": 573,
+      "name": "Cinccino",
+      "gifUrl": "/assets/imgs/poke_573.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 573,
+      "pokedexNumber": 574,
+      "name": "Gothita",
+      "gifUrl": "/assets/imgs/poke_574.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 574,
+      "pokedexNumber": 575,
+      "name": "Gothorita",
+      "gifUrl": "/assets/imgs/poke_575.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 575,
+      "pokedexNumber": 576,
+      "name": "Gothitelle",
+      "gifUrl": "/assets/imgs/poke_576.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 576,
+      "pokedexNumber": 577,
+      "name": "Solosis",
+      "gifUrl": "/assets/imgs/poke_577.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 577,
+      "pokedexNumber": 578,
+      "name": "Duosion",
+      "gifUrl": "/assets/imgs/poke_578.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 578,
+      "pokedexNumber": 579,
+      "name": "Reuniclus",
+      "gifUrl": "/assets/imgs/poke_579.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 579,
+      "pokedexNumber": 580,
+      "name": "Ducklett",
+      "gifUrl": "/assets/imgs/poke_580.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 580,
+      "pokedexNumber": 581,
+      "name": "Swanna",
+      "gifUrl": "/assets/imgs/poke_581.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 581,
+      "pokedexNumber": 582,
+      "name": "Vanillite",
+      "gifUrl": "/assets/imgs/poke_582.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 582,
+      "pokedexNumber": 583,
+      "name": "Vanillish",
+      "gifUrl": "/assets/imgs/poke_583.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 583,
+      "pokedexNumber": 584,
+      "name": "Vanilluxe",
+      "gifUrl": "/assets/imgs/poke_584.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 584,
+      "pokedexNumber": 585,
+      "name": "Deerling",
+      "gifUrl": "/assets/imgs/poke_585.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 585,
+      "pokedexNumber": 586,
+      "name": "Sawsbuck",
+      "gifUrl": "/assets/imgs/poke_586.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 5
+    },
+    {
+      "id": 586,
+      "pokedexNumber": 587,
+      "name": "Emolga",
+      "gifUrl": "/assets/imgs/poke_587.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 587,
+      "pokedexNumber": 588,
+      "name": "Karrablast",
+      "gifUrl": "/assets/imgs/poke_588.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 588,
+      "pokedexNumber": 589,
+      "name": "Escavalier",
+      "gifUrl": "/assets/imgs/poke_589.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 589,
+      "pokedexNumber": 590,
+      "name": "Foongus",
+      "gifUrl": "/assets/imgs/poke_590.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 590,
+      "pokedexNumber": 591,
+      "name": "Amoonguss",
+      "gifUrl": "/assets/imgs/poke_591.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 8
+    },
+    {
+      "id": 591,
+      "pokedexNumber": 592,
+      "name": "Frillish-male",
+      "gifUrl": "/assets/imgs/poke_592.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 592,
+      "pokedexNumber": 593,
+      "name": "Jellicent-male",
+      "gifUrl": "/assets/imgs/poke_593.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 593,
+      "pokedexNumber": 594,
+      "name": "Alomomola",
+      "gifUrl": "/assets/imgs/poke_594.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 594,
+      "pokedexNumber": 595,
+      "name": "Joltik",
+      "gifUrl": "/assets/imgs/poke_595.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 4
+    },
+    {
+      "id": 595,
+      "pokedexNumber": 596,
+      "name": "Galvantula",
+      "gifUrl": "/assets/imgs/poke_596.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 4
+    },
+    {
+      "id": 596,
+      "pokedexNumber": 597,
+      "name": "Ferroseed",
+      "gifUrl": "/assets/imgs/poke_597.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 597,
+      "pokedexNumber": 598,
+      "name": "Ferrothorn",
+      "gifUrl": "/assets/imgs/poke_598.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 598,
+      "pokedexNumber": 599,
+      "name": "Klink",
+      "gifUrl": "/assets/imgs/poke_599.gif",
+      "primaryTypeId": 17
+    },
+    {
+      "id": 599,
+      "pokedexNumber": 600,
+      "name": "Klang",
+      "gifUrl": "/assets/imgs/poke_600.gif",
+      "primaryTypeId": 17
+    },
+    {
+      "id": 600,
+      "pokedexNumber": 601,
+      "name": "Klinklang",
+      "gifUrl": "/assets/imgs/poke_601.gif",
+      "primaryTypeId": 17
+    },
+    {
+      "id": 601,
+      "pokedexNumber": 602,
+      "name": "Tynamo",
+      "gifUrl": "/assets/imgs/poke_602.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 602,
+      "pokedexNumber": 603,
+      "name": "Eelektrik",
+      "gifUrl": "/assets/imgs/poke_603.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 603,
+      "pokedexNumber": 604,
+      "name": "Eelektross",
+      "gifUrl": "/assets/imgs/poke_604.gif",
+      "primaryTypeId": 4
+    },
+    {
+      "id": 604,
+      "pokedexNumber": 605,
+      "name": "Elgyem",
+      "gifUrl": "/assets/imgs/poke_605.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 605,
+      "pokedexNumber": 606,
+      "name": "Beheeyem",
+      "gifUrl": "/assets/imgs/poke_606.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 606,
+      "pokedexNumber": 607,
+      "name": "Litwick",
+      "gifUrl": "/assets/imgs/poke_607.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 607,
+      "pokedexNumber": 608,
+      "name": "Lampent",
+      "gifUrl": "/assets/imgs/poke_608.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 608,
+      "pokedexNumber": 609,
+      "name": "Chandelure",
+      "gifUrl": "/assets/imgs/poke_609.gif",
+      "primaryTypeId": 14,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 609,
+      "pokedexNumber": 610,
+      "name": "Axew",
+      "gifUrl": "/assets/imgs/poke_610.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 610,
+      "pokedexNumber": 611,
+      "name": "Fraxure",
+      "gifUrl": "/assets/imgs/poke_611.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 611,
+      "pokedexNumber": 612,
+      "name": "Haxorus",
+      "gifUrl": "/assets/imgs/poke_612.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 612,
+      "pokedexNumber": 613,
+      "name": "Cubchoo",
+      "gifUrl": "/assets/imgs/poke_613.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 613,
+      "pokedexNumber": 614,
+      "name": "Beartic",
+      "gifUrl": "/assets/imgs/poke_614.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 614,
+      "pokedexNumber": 615,
+      "name": "Cryogonal",
+      "gifUrl": "/assets/imgs/poke_615.gif",
+      "primaryTypeId": 6
+    },
+    {
+      "id": 615,
+      "pokedexNumber": 616,
+      "name": "Shelmet",
+      "gifUrl": "/assets/imgs/poke_616.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 616,
+      "pokedexNumber": 617,
+      "name": "Accelgor",
+      "gifUrl": "/assets/imgs/poke_617.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 617,
+      "pokedexNumber": 618,
+      "name": "Stunfisk",
+      "gifUrl": "/assets/imgs/poke_618.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 4
+    },
+    {
+      "id": 618,
+      "pokedexNumber": 619,
+      "name": "Mienfoo",
+      "gifUrl": "/assets/imgs/poke_619.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 619,
+      "pokedexNumber": 620,
+      "name": "Mienshao",
+      "gifUrl": "/assets/imgs/poke_620.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 620,
+      "pokedexNumber": 621,
+      "name": "Druddigon",
+      "gifUrl": "/assets/imgs/poke_621.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 621,
+      "pokedexNumber": 622,
+      "name": "Golett",
+      "gifUrl": "/assets/imgs/poke_622.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 622,
+      "pokedexNumber": 623,
+      "name": "Golurk",
+      "gifUrl": "/assets/imgs/poke_623.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 623,
+      "pokedexNumber": 624,
+      "name": "Pawniard",
+      "gifUrl": "/assets/imgs/poke_624.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 624,
+      "pokedexNumber": 625,
+      "name": "Bisharp",
+      "gifUrl": "/assets/imgs/poke_625.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 625,
+      "pokedexNumber": 626,
+      "name": "Bouffalant",
+      "gifUrl": "/assets/imgs/poke_626.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 626,
+      "pokedexNumber": 627,
+      "name": "Rufflet",
+      "gifUrl": "/assets/imgs/poke_627.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 627,
+      "pokedexNumber": 628,
+      "name": "Braviary",
+      "gifUrl": "/assets/imgs/poke_628.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 628,
+      "pokedexNumber": 629,
+      "name": "Vullaby",
+      "gifUrl": "/assets/imgs/poke_629.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 629,
+      "pokedexNumber": 630,
+      "name": "Mandibuzz",
+      "gifUrl": "/assets/imgs/poke_630.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 630,
+      "pokedexNumber": 631,
+      "name": "Heatmor",
+      "gifUrl": "/assets/imgs/poke_631.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 631,
+      "pokedexNumber": 632,
+      "name": "Durant",
+      "gifUrl": "/assets/imgs/poke_632.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 17
+    },
+    {
+      "id": 632,
+      "pokedexNumber": 633,
+      "name": "Deino",
+      "gifUrl": "/assets/imgs/poke_633.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 633,
+      "pokedexNumber": 634,
+      "name": "Zweilous",
+      "gifUrl": "/assets/imgs/poke_634.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 634,
+      "pokedexNumber": 635,
+      "name": "Hydreigon",
+      "gifUrl": "/assets/imgs/poke_635.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 635,
+      "pokedexNumber": 636,
+      "name": "Larvesta",
+      "gifUrl": "/assets/imgs/poke_636.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 636,
+      "pokedexNumber": 637,
+      "name": "Volcarona",
+      "gifUrl": "/assets/imgs/poke_637.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 2
+    },
+    {
+      "id": 637,
+      "pokedexNumber": 638,
+      "name": "Cobalion",
+      "gifUrl": "/assets/imgs/poke_638.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 7,
+      "isLegendary": true
+    },
+    {
+      "id": 638,
+      "pokedexNumber": 639,
+      "name": "Terrakion",
+      "gifUrl": "/assets/imgs/poke_639.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 7,
+      "isLegendary": true
+    },
+    {
+      "id": 639,
+      "pokedexNumber": 640,
+      "name": "Virizion",
+      "gifUrl": "/assets/imgs/poke_640.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 7,
+      "isLegendary": true
+    },
+    {
+      "id": 640,
+      "pokedexNumber": 641,
+      "name": "Tornadus-incarnate",
+      "gifUrl": "/assets/imgs/poke_641.gif",
+      "primaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 641,
+      "pokedexNumber": 642,
+      "name": "Thundurus-incarnate",
+      "gifUrl": "/assets/imgs/poke_642.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 642,
+      "pokedexNumber": 643,
+      "name": "Reshiram",
+      "gifUrl": "/assets/imgs/poke_643.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 2,
+      "isLegendary": true
+    },
+    {
+      "id": 643,
+      "pokedexNumber": 644,
+      "name": "Zekrom",
+      "gifUrl": "/assets/imgs/poke_644.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 4,
+      "isLegendary": true
+    },
+    {
+      "id": 644,
+      "pokedexNumber": 645,
+      "name": "Landorus-incarnate",
+      "gifUrl": "/assets/imgs/poke_645.gif",
+      "primaryTypeId": 9,
+      "secondaryTypeId": 10,
+      "isLegendary": true
+    },
+    {
+      "id": 645,
+      "pokedexNumber": 646,
+      "name": "Kyurem",
+      "gifUrl": "/assets/imgs/poke_646.gif",
+      "primaryTypeId": 15,
+      "secondaryTypeId": 6,
+      "isLegendary": true
+    },
+    {
+      "id": 646,
+      "pokedexNumber": 647,
+      "name": "Keldeo-ordinary",
+      "gifUrl": "/assets/imgs/poke_647.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 7,
+      "isLegendary": true
+    },
+    {
+      "id": 647,
+      "pokedexNumber": 648,
+      "name": "Meloetta-aria",
+      "gifUrl": "/assets/imgs/poke_648.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 11,
+      "isLegendary": true
+    },
+    {
+      "id": 648,
+      "pokedexNumber": 649,
+      "name": "Genesect",
+      "gifUrl": "/assets/imgs/poke_649.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 17,
+      "isLegendary": true
+    },
+    {
+      "id": 649,
+      "pokedexNumber": 650,
+      "name": "Chespin",
+      "gifUrl": "/assets/imgs/poke_650.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 650,
+      "pokedexNumber": 651,
+      "name": "Quilladin",
+      "gifUrl": "/assets/imgs/poke_651.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 651,
+      "pokedexNumber": 652,
+      "name": "Chesnaught",
+      "gifUrl": "/assets/imgs/poke_652.gif",
+      "primaryTypeId": 5,
+      "secondaryTypeId": 7
+    },
+    {
+      "id": 652,
+      "pokedexNumber": 653,
+      "name": "Fennekin",
+      "gifUrl": "/assets/imgs/poke_653.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 653,
+      "pokedexNumber": 654,
+      "name": "Braixen",
+      "gifUrl": "/assets/imgs/poke_654.gif",
+      "primaryTypeId": 2
+    },
+    {
+      "id": 654,
+      "pokedexNumber": 655,
+      "name": "Delphox",
+      "gifUrl": "/assets/imgs/poke_655.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 655,
+      "pokedexNumber": 656,
+      "name": "Froakie",
+      "gifUrl": "/assets/imgs/poke_656.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 656,
+      "pokedexNumber": 657,
+      "name": "Frogadier",
+      "gifUrl": "/assets/imgs/poke_657.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 657,
+      "pokedexNumber": 658,
+      "name": "Greninja",
+      "gifUrl": "/assets/imgs/poke_658.gif",
+      "primaryTypeId": 3,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 658,
+      "pokedexNumber": 659,
+      "name": "Bunnelby",
+      "gifUrl": "/assets/imgs/poke_659.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 659,
+      "pokedexNumber": 660,
+      "name": "Diggersby",
+      "gifUrl": "/assets/imgs/poke_660.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 9
+    },
+    {
+      "id": 660,
+      "pokedexNumber": 661,
+      "name": "Fletchling",
+      "gifUrl": "/assets/imgs/poke_661.gif",
+      "primaryTypeId": 1,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 661,
+      "pokedexNumber": 662,
+      "name": "Fletchinder",
+      "gifUrl": "/assets/imgs/poke_662.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 662,
+      "pokedexNumber": 663,
+      "name": "Talonflame",
+      "gifUrl": "/assets/imgs/poke_663.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 663,
+      "pokedexNumber": 664,
+      "name": "Scatterbug",
+      "gifUrl": "/assets/imgs/poke_664.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 664,
+      "pokedexNumber": 665,
+      "name": "Spewpa",
+      "gifUrl": "/assets/imgs/poke_665.gif",
+      "primaryTypeId": 12
+    },
+    {
+      "id": 665,
+      "pokedexNumber": 666,
+      "name": "Vivillon",
+      "gifUrl": "/assets/imgs/poke_666.gif",
+      "primaryTypeId": 12,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 666,
+      "pokedexNumber": 667,
+      "name": "Litleo",
+      "gifUrl": "/assets/imgs/poke_667.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 1
+    },
+    {
+      "id": 667,
+      "pokedexNumber": 668,
+      "name": "Pyroar-male",
+      "gifUrl": "/assets/imgs/poke_668.gif",
+      "primaryTypeId": 2,
+      "secondaryTypeId": 1
+    },
+    {
+      "id": 668,
+      "pokedexNumber": 669,
+      "name": "Flabebe",
+      "gifUrl": "/assets/imgs/poke_669.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 669,
+      "pokedexNumber": 670,
+      "name": "Floette",
+      "gifUrl": "/assets/imgs/poke_670.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 670,
+      "pokedexNumber": 671,
+      "name": "Florges",
+      "gifUrl": "/assets/imgs/poke_671.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 671,
+      "pokedexNumber": 672,
+      "name": "Skiddo",
+      "gifUrl": "/assets/imgs/poke_672.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 672,
+      "pokedexNumber": 673,
+      "name": "Gogoat",
+      "gifUrl": "/assets/imgs/poke_673.gif",
+      "primaryTypeId": 5
+    },
+    {
+      "id": 673,
+      "pokedexNumber": 674,
+      "name": "Pancham",
+      "gifUrl": "/assets/imgs/poke_674.gif",
+      "primaryTypeId": 7
+    },
+    {
+      "id": 674,
+      "pokedexNumber": 675,
+      "name": "Pangoro",
+      "gifUrl": "/assets/imgs/poke_675.gif",
+      "primaryTypeId": 7,
+      "secondaryTypeId": 16
+    },
+    {
+      "id": 675,
+      "pokedexNumber": 676,
+      "name": "Furfrou",
+      "gifUrl": "/assets/imgs/poke_676.gif",
+      "primaryTypeId": 1
+    },
+    {
+      "id": 676,
+      "pokedexNumber": 677,
+      "name": "Espurr",
+      "gifUrl": "/assets/imgs/poke_677.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 677,
+      "pokedexNumber": 678,
+      "name": "Meowstic-male",
+      "gifUrl": "/assets/imgs/poke_678.gif",
+      "primaryTypeId": 11
+    },
+    {
+      "id": 678,
+      "pokedexNumber": 679,
+      "name": "Honedge",
+      "gifUrl": "/assets/imgs/poke_679.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 679,
+      "pokedexNumber": 680,
+      "name": "Doublade",
+      "gifUrl": "/assets/imgs/poke_680.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 680,
+      "pokedexNumber": 681,
+      "name": "Aegislash-shield",
+      "gifUrl": "/assets/imgs/poke_681.gif",
+      "primaryTypeId": 17,
+      "secondaryTypeId": 14
+    },
+    {
+      "id": 681,
+      "pokedexNumber": 682,
+      "name": "Spritzee",
+      "gifUrl": "/assets/imgs/poke_682.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 682,
+      "pokedexNumber": 683,
+      "name": "Aromatisse",
+      "gifUrl": "/assets/imgs/poke_683.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 683,
+      "pokedexNumber": 684,
+      "name": "Swirlix",
+      "gifUrl": "/assets/imgs/poke_684.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 684,
+      "pokedexNumber": 685,
+      "name": "Slurpuff",
+      "gifUrl": "/assets/imgs/poke_685.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 685,
+      "pokedexNumber": 686,
+      "name": "Inkay",
+      "gifUrl": "/assets/imgs/poke_686.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 686,
+      "pokedexNumber": 687,
+      "name": "Malamar",
+      "gifUrl": "/assets/imgs/poke_687.gif",
+      "primaryTypeId": 16,
+      "secondaryTypeId": 11
+    },
+    {
+      "id": 687,
+      "pokedexNumber": 688,
+      "name": "Binacle",
+      "gifUrl": "/assets/imgs/poke_688.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 688,
+      "pokedexNumber": 689,
+      "name": "Barbaracle",
+      "gifUrl": "/assets/imgs/poke_689.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 689,
+      "pokedexNumber": 690,
+      "name": "Skrelp",
+      "gifUrl": "/assets/imgs/poke_690.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 3
+    },
+    {
+      "id": 690,
+      "pokedexNumber": 691,
+      "name": "Dragalge",
+      "gifUrl": "/assets/imgs/poke_691.gif",
+      "primaryTypeId": 8,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 691,
+      "pokedexNumber": 692,
+      "name": "Clauncher",
+      "gifUrl": "/assets/imgs/poke_692.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 692,
+      "pokedexNumber": 693,
+      "name": "Clawitzer",
+      "gifUrl": "/assets/imgs/poke_693.gif",
+      "primaryTypeId": 3
+    },
+    {
+      "id": 693,
+      "pokedexNumber": 694,
+      "name": "Helioptile",
+      "gifUrl": "/assets/imgs/poke_694.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 1
+    },
+    {
+      "id": 694,
+      "pokedexNumber": 695,
+      "name": "Heliolisk",
+      "gifUrl": "/assets/imgs/poke_695.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 1
+    },
+    {
+      "id": 695,
+      "pokedexNumber": 696,
+      "name": "Tyrunt",
+      "gifUrl": "/assets/imgs/poke_696.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 696,
+      "pokedexNumber": 697,
+      "name": "Tyrantrum",
+      "gifUrl": "/assets/imgs/poke_697.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 15
+    },
+    {
+      "id": 697,
+      "pokedexNumber": 698,
+      "name": "Amaura",
+      "gifUrl": "/assets/imgs/poke_698.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 698,
+      "pokedexNumber": 699,
+      "name": "Aurorus",
+      "gifUrl": "/assets/imgs/poke_699.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 6
+    },
+    {
+      "id": 699,
+      "pokedexNumber": 700,
+      "name": "Sylveon",
+      "gifUrl": "/assets/imgs/poke_700.gif",
+      "primaryTypeId": 18
+    },
+    {
+      "id": 700,
+      "pokedexNumber": 701,
+      "name": "Hawlucha",
+      "gifUrl": "/assets/imgs/poke_701.gif",
+      "primaryTypeId": 7,
+      "secondaryTypeId": 10
+    },
+    {
+      "id": 701,
+      "pokedexNumber": 702,
+      "name": "Dedenne",
+      "gifUrl": "/assets/imgs/poke_702.gif",
+      "primaryTypeId": 4,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 702,
+      "pokedexNumber": 703,
+      "name": "Carbink",
+      "gifUrl": "/assets/imgs/poke_703.gif",
+      "primaryTypeId": 13,
+      "secondaryTypeId": 18
+    },
+    {
+      "id": 703,
+      "pokedexNumber": 704,
+      "name": "Goomy",
+      "gifUrl": "/assets/imgs/poke_704.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 704,
+      "pokedexNumber": 705,
+      "name": "Sliggoo",
+      "gifUrl": "/assets/imgs/poke_705.gif",
+      "primaryTypeId": 15
+    },
+    {
+      "id": 705,
+      "pokedexNumber": 706,
+      "name": "Goodra",
+      "gifUrl": "/assets/imgs/poke_706.gif",
+      "primaryTypeId": 15
+    }
+  ]
+}
