@@ -124,7 +124,7 @@ export default function PokemonDetailsModal({ pokemon, open, onClose }) {
         : 'Este Pokémon não possui evolução posterior.',
   }
   const { data, isLoading, isError, error } = usePokemonDetails(
-    pokemon?.id,
+    pokemon,
     lang,
     open
   )

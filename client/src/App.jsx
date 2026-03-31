@@ -1,4 +1,3 @@
-import { lazy, Suspense } from 'react'
 import { Routes, Route, Outlet, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { NavLink } from 'react-router-dom'
@@ -6,8 +5,6 @@ import Home from './pages/Home.jsx'
 import PokeballThemeToggle from './components/PokeballThemeToggle.jsx'
 import LanguageToggle from './components/LanguageToggle.jsx'
 import { useLanguage } from './i18n/LanguageContext.jsx'
-
-const Admin = lazy(() => import('./pages/Admin.jsx'))
 
 function AnimatedOutlet() {
   const location = useLocation()
@@ -31,8 +28,6 @@ export default function App() {
   const { lang } = useLanguage()
   const t = {
     gallery: lang === 'en' ? 'Gallery' : 'Galeria',
-    admin: 'Admin',
-    loadingAdmin: lang === 'en' ? 'Loading admin panel…' : 'Carregando painel…',
   }
   return (
     <div className="flex min-h-screen flex-col bg-[var(--bg)] text-[color:var(--text)] transition-colors duration-300">
@@ -61,18 +56,6 @@ export default function App() {
             >
               {t.gallery}
             </NavLink>
-            <NavLink
-              to="/admin"
-              className={({ isActive }) =>
-                `rounded-lg px-3 py-2 text-sm font-semibold no-underline transition-colors ${
-                  isActive
-                    ? 'bg-blue-500/15 text-blue-700 dark:bg-blue-500/20 dark:text-blue-200'
-                    : 'text-slate-600 hover:bg-black/5 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-white/10 dark:hover:text-white'
-                }`
-              }
-            >
-              Admin
-            </NavLink>
           </nav>
           <LanguageToggle />
           <PokeballThemeToggle />
@@ -81,20 +64,6 @@ export default function App() {
       <Routes>
         <Route element={<AnimatedOutlet />}>
           <Route index element={<Home />} />
-          <Route
-            path="admin"
-            element={
-              <Suspense
-                fallback={
-                  <div className="flex justify-center py-16 text-slate-500 dark:text-slate-400">
-                    {t.loadingAdmin}
-                  </div>
-                }
-              >
-                <Admin />
-              </Suspense>
-            }
-          />
         </Route>
       </Routes>
     </div>

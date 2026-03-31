@@ -61,20 +61,15 @@ export default function Home() {
   const t = {
     loading: lang === 'en' ? 'Loading Pokédex…' : 'Carregando Pokédex…',
     errorLoad: lang === 'en' ? 'Error while loading' : 'Erro ao carregar',
-    startServer:
+    checkConnection:
       lang === 'en'
-        ? 'Start the server in folder'
-        : 'Inicie o servidor na pasta',
-    andReload: lang === 'en' ? 'and refresh.' : 'e recarregue.',
+        ? 'Check your internet connection and try reloading.'
+        : 'Verifique sua conexão com a internet e recarregue.',
     emptyTitle: lang === 'en' ? 'Your Pokédex is empty' : 'Sua Pokédex está vazia',
     emptyText:
       lang === 'en'
-        ? 'Put your GIFs in'
-        : 'Coloque seus GIFs em',
-    andRegister:
-      lang === 'en'
-        ? 'and register them in'
-        : 'e cadastre em',
+        ? 'The static Pokédex JSON has no Pokémon yet.'
+        : 'O JSON estático da Pokédex ainda não possui Pokémon.',
     noResults:
       lang === 'en'
         ? 'No Pokémon found with these filters.'
@@ -117,9 +112,7 @@ export default function Home() {
           {error?.message || t.errorLoad}
         </p>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
-          {t.startServer}{' '}
-          <code className="rounded bg-slate-200 px-1 py-0.5 dark:bg-slate-800">server</code>{' '}
-          (port 3001) {t.andReload}
+          {t.checkConnection}
         </p>
       </div>
     )
@@ -132,9 +125,7 @@ export default function Home() {
           {t.emptyTitle}
         </h1>
         <p className="mt-3 text-slate-600 dark:text-slate-400">
-          {t.emptyText}{' '}
-          <code className="rounded bg-slate-200 px-1 dark:bg-slate-800">assets/</code>{' '}
-          {t.andRegister} <strong>Admin</strong>.
+          {t.emptyText}
         </p>
       </div>
     )

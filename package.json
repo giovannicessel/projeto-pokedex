@@ -2,14 +2,9 @@
   "name": "projeto-pokedex",
   "private": true,
   "scripts": {
-    "predev": "kill-port 3001 >nul 2>&1",
-    "dev": "concurrently -n api,web -c blue,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "start": "npm run start --prefix server",
+    "dev": "npm run dev --prefix client",
     "build": "npm run build --prefix client",
-    "start:prod": "npm run build && npm run start --prefix server"
+    "preview": "npm run preview --prefix client"
   },
-  "devDependencies": {
-    "concurrently": "^9.1.0",
-    "kill-port": "^2.0.1"
-  }
+  "devDependencies": {}
 }

@@ -21,11 +21,12 @@ export function useTypesList() {
   })
 }
 
-export function usePokemonDetails(id, lang = 'pt', enabled = true) {
+export function usePokemonDetails(pokemon, lang = 'pt', enabled = true) {
+  const id = pokemon?.id
   return useQuery({
     queryKey: qk.pokemonDetails(id, lang),
-    queryFn: () => fetchPokemonDetails(id, lang),
-    enabled: enabled && Boolean(id),
+    queryFn: () => fetchPokemonDetails(pokemon, lang),
+    enabled: enabled && Boolean(id) && Boolean(pokemon?.pokedexNumber),
     staleTime: 1000 * 60 * 60,
   })
 }
